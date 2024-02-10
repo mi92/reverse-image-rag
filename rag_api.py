@@ -52,6 +52,12 @@ class RIR_API:
 
     def _reverse_image_search(self, image_url, k=5):
         """ run playwright-based image search and format results"""
+        #loop = asyncio.get_event_loop()
+        #if loop.is_running():
+        #    # Handle the scenario where there's an existing event loop
+        #    print("Loop is already running. Consider refactoring for direct async calls or proper event loop management.")
+        #else:
+        #    results = asyncio.run(search_by_image(image_url, k))
         results = self._run_search_by_image(image_url, k)
         from IPython import embed; embed() 
         # Format results: imageUrl --> image_url and Title --> text 
@@ -113,7 +119,10 @@ async def search_by_image(image_url, k=5):
         results = []
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=False)  # Change to True for headless
-            page = await browser.new_page()
+            ## page = await browser.new_page()
+            context = await browser.new_context()  # Use a fresh context for each search
+            page = await context.new_page()
+
             await page.goto('https://images.google.com')
 
             # Wait for the "Search by image" button to be visible
@@ -161,13 +170,17 @@ async def search_by_image(image_url, k=5):
             
             print(f"Inside: {results}")
             
-            ## Cache to tmp file:
+            ### Cache to tmp json:
+            #with open('tmp.json', 'w') as f:
+            #    json.dump(results, f, indent=4)
             #with open('tmp.pkl', 'wb') as f:
             #    pickle.dump(results, f)
 
             await asyncio.sleep(5)  # Wait for 5 seconds
             
-            await browser.close()
+            #await browser.close()
+
+        # return results 
 
         # print(f"Outside: {results}")
         # from IPython import embed; embed(); sys.exit()  
@@ -179,7 +192,6 @@ async def search_by_image(image_url, k=5):
 
 
 if __name__ == "__main__":
-
     openai_api_key = os.getenv("OPENAI_API_KEY")
     api = RIR_API(openai_api_key, debug=True)
 
@@ -189,4 +201,5 @@ if __name__ == "__main__":
     response = api.query_with_image(image_url, query_text)
 
     print(response)
+
 
