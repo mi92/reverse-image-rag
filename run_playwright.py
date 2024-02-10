@@ -27,13 +27,6 @@ async def search_by_image(image_url, k=5):
         # Wait for the search results to load
         await page.wait_for_selector('img', state='visible')
 
-        # Extract the URLs and titles of the first few image results
-        # Note: The actual selectors for images and titles may vary. This is a generic example.
-        # Extract the URL and title of the first image result
-
-        # Extract firt k image results:
-
-
         # Extract information from the first k search results
         results = await page.evaluate('''(k) => {
             const results = [];
@@ -59,45 +52,8 @@ async def search_by_image(image_url, k=5):
             return results;
         }''', k);
 
-        ## Good version with top k hits, but returns also placeholder urls
-        #results = await page.evaluate(f'''() => {{
-        #    const results = [];
-        #    const containers = document.querySelectorAll('.G19kAf');
-        #    for (let i = 0; i < Math.min(containers.length, {k}); i++) {{
-        #        const container = containers[i];
-        #        const img = container.querySelector('img');
-        #        const imageUrl = img ? img.src : 'Image not found';
-
-        #        const aTag = container.querySelector('a[role="link"]');
-        #        const title = aTag ? aTag.getAttribute('aria-label') : 'Title not found';
-
-        #        results.push({{ imageUrl, title }});
-        #    }}
-        #    return results;
-        #}}''')
         print(results)
 
-        # >> Worked with 1st hit: 
-        ## Extract information from the first search result
-        #result = await page.evaluate('''() => {
-        #    // Target the container of the first result
-        #    const container = document.querySelector('.G19kAf');
-        #    if (!container) return { imageUrl: 'Container not found', title: 'Container not found' };
-
-        #    // Extract the image URL
-        #    const img = container.querySelector('img');
-        #    const imageUrl = img ? img.src : 'Image not found';
-
-        #    // Extract the descriptive text
-        #    const aTag = container.querySelector('a[role="link"]');
-        #    const title = aTag ? aTag.getAttribute('aria-label') : 'Title not found';
-
-        #    return { imageUrl, title };
-        #}''')
-        #print(result)
-
-
-        # For demonstration purposes, let's add a delay here to observe the action before closing the browser
         await asyncio.sleep(5)  # Wait for 5 seconds
 
         await browser.close()
