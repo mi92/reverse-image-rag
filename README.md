@@ -1,10 +1,9 @@
 # Reverse Image RAG - (RIR) 
 
+![](img/ex1a.png)
 
+![](img/ex1b.png)
 
-![](img/slide1.png)
-
-![](img/slide2.png)
 
 ### Synopsis: 
 We build an API to retrieval-augment vision-language models with visual context retrieved from the web.
@@ -50,3 +49,14 @@ Feel free to ping me under mdmoor[at]cs.stanford.edu if you're interested in con
   journal = {GitHub Repository},  
   howpublished = {\url{https://github.com/mi92/reverse-image-rag}},   
 }
+
+### More teaser examples:
+
+![](img/ex2a.png)
+
+![](img/ex2b.png)
+
+![](img/ex3a.png)
+
+![](img/ex3b.png)
+
