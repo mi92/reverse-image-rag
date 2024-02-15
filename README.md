@@ -1,19 +1,17 @@
-# Reverse Image RAG  
+# Reverse Image RAG - (RIR) 
 
-### Synopsis: 
-We build an API to retrieval-augment vision-language models with image and text context retrieved from the web.
-
-Concretely, for a query image and query text (e.g. a question), we leverage reverse image search to find most similar images and their textual content / links.
-The context is formatted an preprended to the prompt that finally is sent to the VLM (e.g. GPT4V).
-
-The final product is a VLM-API that allows to automatically leverage reverse-image-search based retrieval augmentation.  
-
-A visual overview with an example:  
 
 
 ![](img/slide1.png)
 
 ![](img/slide2.png)
+
+### Synopsis: 
+We build an API to retrieval-augment vision-language models with visual context retrieved from the web.
+
+Concretely, for a query image and query text (e.g. a question), we leverage reverse image search to find most similar images and their titles / captions.
+
+The final product is a VLM-API that allows to automatically leverage reverse-image-search based retrieval augmentation.  
 
 
 ### Usage:  
