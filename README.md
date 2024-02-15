@@ -33,7 +33,12 @@ response = api.query_with_image(image_url, query_text)
 
 (see run.py for minimal example)
 
+### Next steps  
 
+- modularized API interface
+- information extraction from search results 
+
+Feel free to ping me under mdmoor[at]cs.stanford.edu if you're interested in contributing.
 
 ### Reference:  
 
