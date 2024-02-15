@@ -34,3 +34,14 @@ response = api.query_with_image(image_url, query_text)
 (see run.py for minimal example)
 
 
+
+### Reference:  
+
+@misc{Moor2024,  
+  author = {Michael Moor},  
+  title = {Reverse Image RAG~(RIR)},  
+  year = {2024},  
+  publisher = {GitHub},  
+  journal = {GitHub Repository},  
+  howpublished = {\url{https://github.com/mi92/reverse-image-rag}},   
+}
