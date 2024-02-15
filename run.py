@@ -9,7 +9,7 @@ if __name__ == "__main__":
     #image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY" # bird
     image_url = "http://tinyurl.com/2rrws56n" # fractal
     query_text = "What is in this image?"
-    response = api.query_with_image(image_url, query_text)
+    response = api.query_with_image(image_url, query_text, delay=3, show_result=True)
     print(response)
 
 

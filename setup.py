@@ -11,10 +11,10 @@ class PostInstallCommand(install):
 
 setup(
     name='rir_api',
-    version='0.1.0',
+    version='0.1.1',
     author='Michael Moor',
     author_email='',
-    description='A reverse image search API for image captioning and visual question answering.',
+    description='The first reverse image RAG API for image captioning and visual question answering with GPT-4V.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/mi92/reverse-image-rag',
