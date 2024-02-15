@@ -28,17 +28,32 @@ class RIR_API:
         self.openai_api_key = openai_api_key 
         self.client = OpenAI(api_key=self.openai_api_key)
 
-    def query_with_image(self, image_url, query_text=None, output_path=None):
+    def query_with_image(self, 
+                         image_url: str, 
+                         query_text: str = None, 
+                         output_path: str = None, 
+                         delay: float = 2.,
+                         show_result: bool = False,
+                         ):
         """
         Query the RIR API with an image URL and a query text.
         Inputs:
         - image_url: (str) URL of the image to query,
         - query_text: (str) query text to use in the VLM (GPT4V) API,
         - output_path: (str) path to save the API response as a pkl file.
+        - delay: (float) delay in seconds to wait for the search results to load.
+        - show_result: (bool) whether to plot the search result screenshot.
         """
 
         # Perform reverse image search and take a screenshot of the results
-        screenshot_path = self._run_search_by_image(image_url)
+        screenshot_path = self._run_search_by_image(image_url, delay)
+
+        ## show the screenshot for few seconds if show_result flag is on:
+        if show_result:
+            from PIL import Image
+            print(f"Showing the screenshot of the image search results to inspect the context.")
+            img = Image.open(screenshot_path)
+            img.show()
 
         # Encode the screenshot in base64 format
         with open(screenshot_path, "rb") as image_file:
@@ -64,6 +79,7 @@ class RIR_API:
             {"type": "text", "text": "Query: " + final_query_text},
         ]
 
+        print(f'Querying GPT4V with augmented prompt...')
 
         # Call the GPT-4V API with the constructed content list
         response = self.client.chat.completions.create(
@@ -74,6 +90,10 @@ class RIR_API:
             max_tokens=200,
         )
 
+        if show_result:
+            # close the img of the results again
+            img.close()
+
         if output_path:
             # Write response to pkl:
             if not os.path.exists(output_path):
@@ -83,25 +103,26 @@ class RIR_API:
 
         return response
 
-    def _run_search_by_image(self, image_url):
+    def _run_search_by_image(self, image_url: str, delay: float = 2.):
         """ run playwright-based image search and return screenshot"""
         # Handle the case where this is called from a synchronous context
         try:
-            return asyncio.run(search_by_image(image_url))
+            return asyncio.run(search_by_image(image_url, delay=delay))
         except RuntimeError as e:
             print(f'Error in reverse_image_search: {e}')
             # Handle the case where an event loop is already running
             # This is just an example and might not be the optimal way to handle this situation in a real app
             loop = asyncio.get_event_loop()
-            return loop.run_until_complete(search_by_image(image_url))
+            return loop.run_until_complete(search_by_image(image_url, delay=delay))
 
 
-async def search_by_image(image_url, screenshot_path='search_results.png'):
+async def search_by_image(image_url, screenshot_path='search_results.png', delay=2.):
     """
     Perform a reverse image search using the Playwright library and take a screenshot of the results.
     Inputs:
     - image_url: (str) URL of the image to search for,
     - screenshot_path: (str) path to save the screenshot.
+    - delay: (float) delay in seconds to wait for the search results to load.
     """
     results = []
     async with async_playwright() as p:
@@ -130,7 +151,7 @@ async def search_by_image(image_url, screenshot_path='search_results.png'):
         # Wait for the search results to load
         await page.wait_for_selector('img', state='visible')
       
-        await asyncio.sleep(2)  # Wait for 5 seconds
+        await asyncio.sleep(delay)  # Wait for few seconds for results to load 
 
        
         # Take a screenshot of the entire page
@@ -152,7 +173,7 @@ if __name__ == "__main__":
     image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY"
 
     query_text = "What is in this image?"
-    response = api.query_with_image(image_url, query_text)
+    response = api.query_with_image(image_url, query_text, show_result=True, delay=3)
 
     print(response)
 
