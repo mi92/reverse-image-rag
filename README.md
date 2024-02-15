@@ -8,6 +8,13 @@ The context is formatted an preprended to the prompt that finally is sent to the
 
 The final product is a VLM-API that allows to automatically leverage reverse-image-search based retrieval augmentation.  
 
+A visual overview with an example:  
+
+
+![](img/slide1.png)
+
+![](img/slide2.png)
+
 
 ### Usage:  
 
