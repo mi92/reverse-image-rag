@@ -16,15 +16,21 @@ The final product is a VLM-API that allows to automatically leverage reverse-ima
 
 ### Usage:  
 
+```pip install rir_api```
 
 ```python
-api = RIR_API(openai_api_key)
+import rir_api 
+
+api = rir_api.RIR_API(openai_api_key)
 
 image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY"
 query_text = "What is in this image?"
 response = api.query_with_image(image_url, query_text)
 # >> runs reverse image search
-# >> formats image-text context prompt
+# >> formats visual context prompt
 # >> queries VLM with full query
 ```
+
+(see run.py for minimal example)
+
 
