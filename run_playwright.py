@@ -52,12 +52,16 @@ async def search_by_image(image_url, k=5):
             return results;
         }''', k);
 
-        print(results)
+        
 
-        await asyncio.sleep(5)  # Wait for 5 seconds
+        await asyncio.sleep(7)  # Wait for 5 seconds
+        print(results)
+        ### Cache to tmp json:
+        #with open('run_tmp.json', 'w') as f:
+        #    json.dump(results, f, indent=4)
 
         await browser.close()
 
-image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY"
-
+image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY" # bird 
+#image_url = "https://i0.wp.com/www.skiptomylou.org/wp-content/uploads/2020/09/easy-sunflower-drawing-600x649.jpg" # sun flower
 asyncio.run(search_by_image(image_url))

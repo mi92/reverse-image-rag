@@ -2,7 +2,7 @@
 
 import os
 import requests
-from serpapi import GoogleSearch
+#from serpapi import GoogleSearch
 from openai import OpenAI
 import json
 import pickle 
@@ -59,7 +59,7 @@ class RIR_API:
         #else:
         #    results = asyncio.run(search_by_image(image_url, k))
         results = self._run_search_by_image(image_url, k)
-        from IPython import embed; embed() 
+         
         # Format results: imageUrl --> image_url and Title --> text 
         results = [{'image_url': result['ImageUrl'], 'text': result['Title']} 
                    for result in results
@@ -167,16 +167,15 @@ async def search_by_image(image_url, k=5):
                 }
                 return results;
             }''', k);
-            
+           
+            await asyncio.sleep(5)  # Wait for 5 seconds
+
             print(f"Inside: {results}")
             
-            ### Cache to tmp json:
-            #with open('tmp.json', 'w') as f:
-            #    json.dump(results, f, indent=4)
             #with open('tmp.pkl', 'wb') as f:
             #    pickle.dump(results, f)
 
-            await asyncio.sleep(5)  # Wait for 5 seconds
+            #await asyncio.sleep(5)  # Wait for 5 seconds
             
             #await browser.close()
 
@@ -192,7 +191,10 @@ async def search_by_image(image_url, k=5):
 
 
 if __name__ == "__main__":
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    # In case openai key in environment, use:
+    # openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = open('api_keys/openai_api_key.txt', 'r').read().strip()
+
     api = RIR_API(openai_api_key, debug=True)
 
     image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY"
