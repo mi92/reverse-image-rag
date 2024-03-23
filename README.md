@@ -32,6 +32,14 @@ response = api.query_with_image(image_url, query_text)
 
 (see run.py for minimal example)
 
+#### Debug mode:
+
+For debugging, you can make API calls that display the web GUI (headless=True), and plot the image search result (show_result=True):   
+```
+response = api.query_with_image(image_url, query_text, show_result=True, delay=3, headless=False)
+
+```
+
 ### Next steps  
 
 - modularized API interface

@@ -34,6 +34,7 @@ class RIR_API:
                          output_path: str = None, 
                          delay: float = 2.,
                          show_result: bool = False,
+                         headless: bool = True,
                          ):
         """
         Query the RIR API with an image URL and a query text.
@@ -42,11 +43,12 @@ class RIR_API:
         - query_text: (str) query text to use in the VLM (GPT4V) API,
         - output_path: (str) path to save the API response as a pkl file.
         - delay: (float) delay in seconds to wait for the search results to load.
-        - show_result: (bool) whether to plot the search result screenshot.
+        - show_result: (bool) whether to plot the image search result screenshot.
+        - headless: (bool) flag to deactivate browser gui to inspect search.
         """
 
         # Perform reverse image search and take a screenshot of the results
-        screenshot_path = self._run_search_by_image(image_url, delay)
+        screenshot_path = self._run_search_by_image(image_url, delay, headless)
 
         ## show the screenshot for few seconds if show_result flag is on:
         if show_result:
@@ -103,30 +105,31 @@ class RIR_API:
 
         return response
 
-    def _run_search_by_image(self, image_url: str, delay: float = 2.):
+    def _run_search_by_image(self, image_url: str, delay: float = 2., headless=False):
         """ run playwright-based image search and return screenshot"""
         # Handle the case where this is called from a synchronous context
         try:
-            return asyncio.run(search_by_image(image_url, delay=delay))
+            return asyncio.run(search_by_image(image_url, delay=delay, headless=headless))
         except RuntimeError as e:
             print(f'Error in reverse_image_search: {e}')
             # Handle the case where an event loop is already running
             # This is just an example and might not be the optimal way to handle this situation in a real app
             loop = asyncio.get_event_loop()
-            return loop.run_until_complete(search_by_image(image_url, delay=delay))
+            return loop.run_until_complete(search_by_image(image_url, delay=delay, headless=headless))
 
 
-async def search_by_image(image_url, screenshot_path='search_results.png', delay=2.):
+async def search_by_image(image_url, screenshot_path='search_results.png', delay=2., headless=False):
     """
     Perform a reverse image search using the Playwright library and take a screenshot of the results.
     Inputs:
     - image_url: (str) URL of the image to search for,
     - screenshot_path: (str) path to save the screenshot.
     - delay: (float) delay in seconds to wait for the search results to load.
+    - headless: bool to indicate if web search is done in headless mode (no gui browser opened)
     """
     results = []
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)  # Change to True for headless
+        browser = await p.chromium.launch(headless=headless)  # Change to True for headless
         ## page = await browser.new_page()
         context = await browser.new_context()  # Use a fresh context for each search
         page = await context.new_page()
@@ -173,7 +176,11 @@ if __name__ == "__main__":
     image_url = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgN8RDkURVE8mgOf-n02TqJdC2l1o5cVFA32NpZtuVp8MaFfZY"
 
     query_text = "What is in this image?"
-    response = api.query_with_image(image_url, query_text, show_result=True, delay=3)
+    # Regular API call:
+    response = api.query_with_image(image_url, query_text, delay=3)
+
+    # Debug API call that displays the web GUI, and plots the image search result: 
+    # response = api.query_with_image(image_url, query_text, show_result=True, delay=3, headless=False)
 
     print(response)
 
