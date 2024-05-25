@@ -30,11 +30,19 @@ class RIR_API:
 
     def query_with_image(self, 
                          image_url: str, 
-                         query_text: str = None, 
+                         query_text: str = None,
+                         additional_texts: list = None,
+                         use_case: str = 'regular',
                          output_path: str = None, 
                          delay: float = 2.,
                          show_result: bool = False,
                          headless: bool = True,
+                         use_screenshot: bool = True,
+                         generate_new_screenshot: bool = True,
+                         screenshot_dir: str = None,
+                         exp_dir: str = None,
+                         model_name: str = "gpt-4-turbo-2024-04-09",
+                         sys_msg_filename: str = None,
                          ):
         """
         Query the RIR API with an image URL and a query text.
@@ -48,68 +56,158 @@ class RIR_API:
         """
 
         # Perform reverse image search and take a screenshot of the results
-        screenshot_path = self._run_search_by_image(image_url, delay, headless)
+        if use_screenshot:
+            if image_url.split('/')[-2] == 'infoseek':
+                path_segs = image_url.split('/')
+                screenshot_url = '/'.join([*path_segs[:-2], 'screenshot', path_segs[-1] + "-search_result.png"])
+            else:
+                name = image_url.split('/')[-1]
+                screenshot_url = f'https://anonymous.4open.science/api/repo/rir_data/file/snake/{name}-search_result.png'
 
-        ## show the screenshot for few seconds if show_result flag is on:
-        if show_result:
-            from PIL import Image
-            print(f"Showing the screenshot of the image search results to inspect the context.")
-            img = Image.open(screenshot_path)
-            img.show()
+            # Construct the prompt for GPT-4V
+            context_text = ("In the screenshot, the large image on the left is the query image for a reverse image search. "
+                            "The smaller images on the right and their titles are the top hits from the search. ")
+            final_query_text = query_text or "Describe the following image:"
+            
+            # Call the GPT-4V API with the constructed content list
+            with open(exp_dir + sys_msg_filename, 'r') as f:
+                query_system_with_screenshot = f.read()
 
-        # Encode the screenshot in base64 format
-        with open(screenshot_path, "rb") as image_file:
-            base64_image = base64.b64encode(image_file.read()).decode('utf-8')
+            # Construct the content list for the GPT-4V API
+            if use_case == 'regular':
+                content_list = [
+                    # Screenshot context:
+                    {"type": "image_url", "image_url": {"url": screenshot_url}},
+                    # Text context / explanation
+                    {"type": "text", "text": context_text},
+                    # Query image
+                    {   "type": "image_url", 
+                        "image_url": {"url": image_url},
+                    },
+                    # Query text
+                    {"type": "text", "text": "Query: " + final_query_text}
+                ]
+                messages_record=[
+                    {"role": "user", "content": query_system_with_screenshot},
+                    {"role": "user", "content": content_list[1:]}  # exclude the screenshot from the messages
+                ]
+            elif use_case == 'consistency_check':
+                content_list = [
+                    # Screenshot context:
+                    {"type": "image_url", "image_url": {"url": screenshot_url}},
+                    # Text context / explanation
+                    {"type": "text", "text": context_text},
+                    # Query text
+                    {"type": "text", "text": "Query: " + final_query_text}
+                ]
+                messages_record=[
+                    {"role": "user", "content": query_system_with_screenshot},
+                    {"role": "user", "content": content_list[1:]}  # exclude the screenshot from the messages
+                ]
+            elif use_case == 'entity_recognition':
+                content_list = [
+                    # Screenshot context:
+                    {"type": "image_url", "image_url": {"url": screenshot_url}},
+                    # Text context / explanation
+                    {"type": "text", "text": context_text},
+                ]
+                messages_record=[
+                    {"role": "user", "content": query_system_with_screenshot},
+                    {"role": "user", "content": content_list[1:]}  # exclude the screenshot from the messages
+                ]
 
-        # Construct the prompt for GPT-4V
-        context_text = ("In the screenshot, the large image on the left is the query image for a reverse image search. "
-                        "The smaller images on the right and their titles are the top hits from the search. "
-                        "Please leverage any relevant context from the returned images and their titles in the following problem.")
-        final_query_text = query_text or "Describe the following image:"
+            print(f'Querying {model_name} with augmented prompt...')
+         
+            attempt = 0
+            while True:
+                try:
+                    response = self.client.chat.completions.create(
+                        model=model_name,
+                        messages=[
+                            {"role": "user", "content": query_system_with_screenshot},
+                            {"role": "user", "content": content_list}
+                        ],
+                        max_tokens=200,
+                    )
+                    print('success')
+                    break
+                    
+                except Exception as err:
+                    attempt += 1
+                    print(f'Attempt ({attempt}/5): Error in {model_name} API: {err}')
+                    import time; time.sleep(10)
+                    if attempt >= 5:
+                        break
 
-        # Construct the content list for the GPT-4V API
-        content_list = [
-            # Screenshot context:
-            {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{base64_image}"}},
-            # Text context / explanation
-            {"type": "text", "text": context_text},
-            # Query image
-            {   "type": "image_url", 
-                "image_url": {"url": image_url},
-            },
-            # Query text
-            {"type": "text", "text": "Query: " + final_query_text},
-        ]
+        else:
+            # Construct the prompt for GPT-4V
+            final_query_text = query_text
 
-        print(f'Querying GPT4V with augmented prompt...')
+            if use_case == 'ablation_textonly':
+                # Construct the content list for the GPT-4V API
+                content_list = [
+                    # Query text
+                    {"type": "text", "text": "Query: " + final_query_text}
+                ]
 
-        # Call the GPT-4V API with the constructed content list
-        response = self.client.chat.completions.create(
-            model="gpt-4-vision-preview",
-            messages=[
-                {"role": "user", "content": content_list}
-            ],
-            max_tokens=200,
-        )
+                print(f'{use_case}: Querying {model_name} with regular prompt (no screenshot)...')
 
-        if show_result:
-            # close the img of the results again
-            img.close()
+                query_system_no_screenshot = ""        
+                messages_record=[
+                    {"role": "user", "content": content_list}
+                ]
 
-        if output_path:
-            # Write response to pkl:
-            if not os.path.exists(output_path):
-                os.makedirs(output_path, exist_ok=True)
-            with open(f'{output_path}/api_gpt4v_result.pkl', 'wb') as f:
-                pickle.dump(response, f)
+            if use_case in ['regular', 'decide']:
+                # Construct the content list for the GPT-4V API
+                content_list = [
+                    # Query image
+                    {   "type": "image_url", 
+                        "image_url": {"url": image_url},
+                    },
+                    # Query text
+                    {"type": "text", "text": "Query: " + final_query_text}
+                ]
 
-        return response
+                print(f'Querying {model_name} with regular prompt (no screenshot)...')
+                
+                # Call the GPT-4V API with the constructed content list
+                with open(exp_dir + sys_msg_filename, 'r') as f:
+                    query_system_no_screenshot = f.read()
+                
+                messages_record=[
+                    {"role": "system", "content": query_system_no_screenshot},
+                    {"role": "user", "content": content_list}
+                ]
+
+            attempt = 0
+            while True:
+                try:
+                    response = self.client.chat.completions.create(
+                        model=model_name,
+                        messages=[
+                            {"role": "system", "content": query_system_no_screenshot},
+                            {"role": "user", "content": content_list}
+                        ],
+                        max_tokens=200,
+                    )
+                    print('success')
+                    break
+                    
+                except Exception as err:
+                    attempt += 1
+                    print(f'Attempt ({attempt}/5): Error in {model_name} API: {err}')
+                    import time; time.sleep(10)
+                    if attempt >= 5:
+                        break
+
+        return response, messages_record
 
     def _run_search_by_image(self, image_url: str, delay: float = 2., headless=False):
         """ run playwright-based image search and return screenshot"""
         # Handle the case where this is called from a synchronous context
         try:
-            return asyncio.run(search_by_image(image_url, delay=delay, headless=headless))
+            screenshot_path = f'{self.screenshot_dir}/' + image_url.split('/')[-1].split('?')[0] + '-search_result.png'
+            return asyncio.run(search_by_image(image_url, screenshot_path=screenshot_path, delay=delay, headless=headless))
         except RuntimeError as e:
             print(f'Error in reverse_image_search: {e}')
             # Handle the case where an event loop is already running

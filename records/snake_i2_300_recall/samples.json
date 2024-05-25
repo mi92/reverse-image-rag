@@ -1,0 +1,3002 @@
+[
+    {
+        "observation_id": 146213458,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Elaphe taeniura",
+        "code": "CN",
+        "image_path": "2022/Elaphe_taeniura/251327260.jpg",
+        "class_id": 622,
+        "subset": "val"
+    },
+    {
+        "observation_id": 104788525,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lycodon subcinctus",
+        "code": "ID",
+        "image_path": "2022/Lycodon_subcinctus/175664058.jpeg",
+        "class_id": 971,
+        "subset": "val"
+    },
+    {
+        "observation_id": 56451426,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Leioheterodon geayi",
+        "code": "MG",
+        "image_path": "2020/Leioheterodon_geayi/89960563.jpg",
+        "class_id": 892,
+        "subset": "val"
+    },
+    {
+        "observation_id": 38053391,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Simoselaps bertholdi",
+        "code": "AU",
+        "image_path": "2019/Simoselaps_bertholdi/60422898.jpg",
+        "class_id": 1516,
+        "subset": "val"
+    },
+    {
+        "observation_id": 106335496,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxybelis fulgidus",
+        "code": "BR",
+        "image_path": "2021/Oxybelis_fulgidus/178610493.jpeg",
+        "class_id": 1207,
+        "subset": "val"
+    },
+    {
+        "observation_id": 6090675,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tantilla atriceps",
+        "code": "MX",
+        "image_path": "2016/Tantilla_atriceps/7617120.jpg",
+        "class_id": 1579,
+        "subset": "val"
+    },
+    {
+        "observation_id": 138149576,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus scutulatus",
+        "code": "US",
+        "image_path": "2022/Crotalus_scutulatus/235662410.jpg",
+        "class_id": 430,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145672947,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrelaphis kopsteini",
+        "code": "SG",
+        "image_path": "2023/Dendrelaphis_kopsteini/250268107.jpeg",
+        "class_id": 493,
+        "subset": "val"
+    },
+    {
+        "observation_id": 8969615,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Echis carinatus",
+        "code": "IR",
+        "image_path": "2017/Echis_carinatus/12097074.jpeg",
+        "class_id": 595,
+        "subset": "val"
+    },
+    {
+        "observation_id": 22718607,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lygophis lineatus",
+        "code": "CO",
+        "image_path": "2018/Lygophis_lineatus/35204688.jpg",
+        "class_id": 988,
+        "subset": "val"
+    },
+    {
+        "observation_id": 119762779,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus simus",
+        "code": "HN",
+        "image_path": "2022/Crotalus_simus/202490636.jpeg",
+        "class_id": 431,
+        "subset": "val"
+    },
+    {
+        "observation_id": 63518042,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Philodryas olfersii",
+        "code": "AR",
+        "image_path": "2014/Philodryas_olfersii/101949974.jpg",
+        "class_id": 1266,
+        "subset": "val"
+    },
+    {
+        "observation_id": 93330804,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Imantodes gemmistratus",
+        "code": "SV",
+        "image_path": "2007/Imantodes_gemmistratus/154671488.jpg",
+        "class_id": 844,
+        "subset": "val"
+    },
+    {
+        "observation_id": 147274799,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptophis ahaetulla",
+        "code": "UY",
+        "image_path": "2023/Leptophis_ahaetulla/253391894.jpeg",
+        "class_id": 912,
+        "subset": "val"
+    },
+    {
+        "observation_id": 94798310,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Platyceps ventromaculatus",
+        "code": "PK",
+        "image_path": "2021/Platyceps_ventromaculatus/157298612.jpeg",
+        "class_id": 1307,
+        "subset": "val"
+    },
+    {
+        "observation_id": 90677045,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis ordinoides",
+        "code": "CA",
+        "image_path": "2021/Thamnophis_ordinoides/149885326.jpeg",
+        "class_id": 1634,
+        "subset": "val"
+    },
+    {
+        "observation_id": 69478628,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pseudoleptodeira latifasciata",
+        "code": "MX",
+        "image_path": "2021/Pseudoleptodeira_latifasciata/112741938.jpeg",
+        "class_id": 1388,
+        "subset": "val"
+    },
+    {
+        "observation_id": 139931550,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tropidolaemus wagleri",
+        "code": "ID",
+        "image_path": "2021/Tropidolaemus_wagleri/239438958.jpeg",
+        "class_id": 1714,
+        "subset": "val"
+    },
+    {
+        "observation_id": 9882232,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Imantodes cenchoa",
+        "code": "MX",
+        "image_path": "2015/Imantodes_cenchoa/13545471.jpeg",
+        "class_id": 842,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140753401,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Anilios bituberculatus",
+        "code": "AU",
+        "image_path": "2022/Anilios_bituberculatus/240982093.jpg",
+        "class_id": 70,
+        "subset": "val"
+    },
+    {
+        "observation_id": 136747940,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pituophis vertebralis",
+        "code": "MX",
+        "image_path": "2022/Pituophis_vertebralis/233434332.jpeg",
+        "class_id": 1297,
+        "subset": "val"
+    },
+    {
+        "observation_id": 63120350,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix tessellata",
+        "code": "KZ",
+        "image_path": "2017/Natrix_tessellata/101211998.jpeg",
+        "class_id": 1138,
+        "subset": "val"
+    },
+    {
+        "observation_id": 120317654,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimeresurus albolabris",
+        "code": "ID",
+        "image_path": "2022/Trimeresurus_albolabris/203484697.jpeg",
+        "class_id": 1662,
+        "subset": "val"
+    },
+    {
+        "observation_id": 131430386,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Hydrophis ornatus",
+        "code": "NC",
+        "image_path": "2021/Hydrophis_ornatus/223666125.jpg",
+        "class_id": 820,
+        "subset": "val"
+    },
+    {
+        "observation_id": 31448083,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pseudorabdion longiceps",
+        "code": "MY",
+        "image_path": "2019/Pseudorabdion_longiceps/49218758.jpeg",
+        "class_id": 1398,
+        "subset": "val"
+    },
+    {
+        "observation_id": 126093364,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ungaliophis panamensis",
+        "code": "CR",
+        "image_path": "2022/Ungaliophis_panamensis/213906625.jpeg",
+        "class_id": 1721,
+        "subset": "val"
+    },
+    {
+        "observation_id": 85991003,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Epictia resetari",
+        "code": "MX",
+        "image_path": "2021/Epictia_resetari/141580798.jpeg",
+        "class_id": 652,
+        "subset": "val"
+    },
+    {
+        "observation_id": 21312136,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Epictia phenops",
+        "code": "MX",
+        "image_path": "2019/Epictia_phenops/32957864.jpg",
+        "class_id": 651,
+        "subset": "val"
+    },
+    {
+        "observation_id": 113970757,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Boa imperator",
+        "code": "PA",
+        "image_path": "2022/Boa_imperator/192497805.jpeg",
+        "class_id": 167,
+        "subset": "val"
+    },
+    {
+        "observation_id": 137086333,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pseudoboa neuwiedii",
+        "code": "CO",
+        "image_path": "2022/Pseudoboa_neuwiedii/234062293.jpeg",
+        "class_id": 1380,
+        "subset": "val"
+    },
+    {
+        "observation_id": 41316972,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Carphophis vermis",
+        "code": "US",
+        "image_path": "2020/Carphophis_vermis/65533362.jpg",
+        "class_id": 293,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145559684,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Fowlea piscator",
+        "code": "TH",
+        "image_path": "2022/Fowlea_piscator/250049917.jpeg",
+        "class_id": 711,
+        "subset": "val"
+    },
+    {
+        "observation_id": 18665706,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Fowlea flavipunctatus",
+        "code": "CN",
+        "image_path": "2017/Fowlea_flavipunctatus/28574392.jpg",
+        "class_id": 708,
+        "subset": "val"
+    },
+    {
+        "observation_id": 16882052,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bogertophis subocularis",
+        "code": "unknown",
+        "image_path": "2018/Bogertophis_subocularis/25500686.jpeg",
+        "class_id": 177,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140308084,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Paraphimophis rusticus",
+        "code": "UY",
+        "image_path": "2022/Paraphimophis_rusticus/240157879.jpeg",
+        "class_id": 1241,
+        "subset": "val"
+    },
+    {
+        "observation_id": 12816673,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Chironius scurrulus",
+        "code": "CO",
+        "image_path": "2017/Chironius_scurrulus/18587360.jpeg",
+        "class_id": 340,
+        "subset": "val"
+    },
+    {
+        "observation_id": 3414210,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Liodytes rigida",
+        "code": "US",
+        "image_path": "2016/Liodytes_rigida/3952704.jpg",
+        "class_id": 934,
+        "subset": "val"
+    },
+    {
+        "observation_id": 67893289,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Drysdalia coronoides",
+        "code": "AU",
+        "image_path": "2021/Drysdalia_coronoides/109809480.jpg",
+        "class_id": 584,
+        "subset": "val"
+    },
+    {
+        "observation_id": 126492475,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Vipera berus",
+        "code": "RS",
+        "image_path": "2022/Vipera_berus/214628662.jpg",
+        "class_id": 1736,
+        "subset": "val"
+    },
+    {
+        "observation_id": 125791712,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Calamaria septentrionalis",
+        "code": "CN",
+        "image_path": "2022/Calamaria_septentrionalis/213300528.jpeg",
+        "class_id": 277,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140736917,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Porthidium lansbergii",
+        "code": "CO",
+        "image_path": "2022/Porthidium_lansbergii/240950935.jpeg",
+        "class_id": 1315,
+        "subset": "val"
+    },
+    {
+        "observation_id": 5967952,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Salvadora hexalepis",
+        "code": "US",
+        "image_path": "2017/Salvadora_hexalepis/7457481.jpg",
+        "class_id": 1487,
+        "subset": "val"
+    },
+    {
+        "observation_id": 65674952,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendroaspis angusticeps",
+        "code": "ZA",
+        "image_path": "2020/Dendroaspis_angusticeps/105743710.jpg",
+        "class_id": 510,
+        "subset": "val"
+    },
+    {
+        "observation_id": 103693071,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus epinephalus",
+        "code": "CR",
+        "image_path": "2021/Erythrolamprus_epinephalus/173607782.jpg",
+        "class_id": 664,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145179258,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lycodon subcinctus",
+        "code": "ID",
+        "image_path": "2022/Lycodon_subcinctus/249341622.jpeg",
+        "class_id": 971,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13962677,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix natrix",
+        "code": "AL",
+        "image_path": "2018/Natrix_natrix/20640784.jpg",
+        "class_id": 1137,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82162145,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendroaspis polylepis",
+        "code": "unknown",
+        "image_path": "2021/Dendroaspis_polylepis/134827903.jpg",
+        "class_id": 512,
+        "subset": "val"
+    },
+    {
+        "observation_id": 27397273,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lichanura orcutti",
+        "code": "MX",
+        "image_path": "2019/Lichanura_orcutti/42623628.jpeg",
+        "class_id": 928,
+        "subset": "val"
+    },
+    {
+        "observation_id": 15098331,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Micrurus diastema",
+        "code": "GT",
+        "image_path": "2018/Micrurus_diastema/22551935.jpeg",
+        "class_id": 1052,
+        "subset": "val"
+    },
+    {
+        "observation_id": 141136699,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Craspedocephalus travancoricus",
+        "code": "IN",
+        "image_path": "2022/Craspedocephalus_travancoricus/241715595.jpeg",
+        "class_id": 398,
+        "subset": "val"
+    },
+    {
+        "observation_id": 24231709,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Diadophis punctatus",
+        "code": "MX",
+        "image_path": "2019/Diadophis_punctatus/37468768.jpeg",
+        "class_id": 525,
+        "subset": "val"
+    },
+    {
+        "observation_id": 123173317,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Helicops danieli",
+        "code": "CO",
+        "image_path": "2022/Helicops_danieli/208635797.jpg",
+        "class_id": 776,
+        "subset": "val"
+    },
+    {
+        "observation_id": 133903679,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ptyas korros",
+        "code": "TW",
+        "image_path": "2022/Ptyas_korros/228156413.jpeg",
+        "class_id": 1412,
+        "subset": "val"
+    },
+    {
+        "observation_id": 106375796,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Phrynonax poecilonotus",
+        "code": "EC",
+        "image_path": "2022/Phrynonax_poecilonotus/178674779.jpeg",
+        "class_id": 1286,
+        "subset": "val"
+    },
+    {
+        "observation_id": 47031562,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Boa constrictor",
+        "code": "BO",
+        "image_path": "2020/Boa_constrictor/74586308.jpeg",
+        "class_id": 166,
+        "subset": "val"
+    },
+    {
+        "observation_id": 25901183,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Hierophis gemonensis",
+        "code": "unknown",
+        "image_path": "2019/Hierophis_gemonensis/40170825.jpeg",
+        "class_id": 798,
+        "subset": "val"
+    },
+    {
+        "observation_id": 32236120,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Charina bottae",
+        "code": "US",
+        "image_path": "2019/Charina_bottae/50542194.jpg",
+        "class_id": 311,
+        "subset": "val"
+    },
+    {
+        "observation_id": 142311958,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotaphopeltis hotamboeia",
+        "code": "KE",
+        "image_path": "2022/Crotaphopeltis_hotamboeia/243957277.jpeg",
+        "class_id": 444,
+        "subset": "val"
+    },
+    {
+        "observation_id": 84353086,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus ruber",
+        "code": "unknown",
+        "image_path": "2021/Crotalus_ruber/138629527.jpg",
+        "class_id": 429,
+        "subset": "val"
+    },
+    {
+        "observation_id": 6554779,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lampropeltis triangulum",
+        "code": "unknown",
+        "image_path": "2017/Lampropeltis_triangulum/8311403.jpeg",
+        "class_id": 881,
+        "subset": "val"
+    },
+    {
+        "observation_id": 127518164,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxybelis wilsoni",
+        "code": "HN",
+        "image_path": "2018/Oxybelis_wilsoni/216495520.jpg",
+        "class_id": 1214,
+        "subset": "val"
+    },
+    {
+        "observation_id": 17481845,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Drymarchon melanurus",
+        "code": "US",
+        "image_path": "2018/Drymarchon_melanurus/26587837.jpg",
+        "class_id": 571,
+        "subset": "val"
+    },
+    {
+        "observation_id": 65855605,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis eques",
+        "code": "MX",
+        "image_path": "2020/Thamnophis_eques/106067019.jpeg",
+        "class_id": 1626,
+        "subset": "val"
+    },
+    {
+        "observation_id": 69253164,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptotyphlops incognitus",
+        "code": "ZA",
+        "image_path": "2021/Leptotyphlops_incognitus/112336034.jpg",
+        "class_id": 921,
+        "subset": "val"
+    },
+    {
+        "observation_id": 99768159,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dipsas brevifacies",
+        "code": "MX",
+        "image_path": "2021/Dipsas_brevifacies/166388310.jpeg",
+        "class_id": 538,
+        "subset": "val"
+    },
+    {
+        "observation_id": 35799065,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bothrops atrox",
+        "code": "SR",
+        "image_path": "2018/Bothrops_atrox/56495214.jpeg",
+        "class_id": 224,
+        "subset": "val"
+    },
+    {
+        "observation_id": 52430262,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Micrurus alleni",
+        "code": "CR",
+        "image_path": "2020/Micrurus_alleni/83346075.jpg",
+        "class_id": 1041,
+        "subset": "val"
+    },
+    {
+        "observation_id": 112832462,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Vipera berus",
+        "code": "LT",
+        "image_path": "2022/Vipera_berus/190615048.jpg",
+        "class_id": 1736,
+        "subset": "val"
+    },
+    {
+        "observation_id": 104054313,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Amblyodipsas polylepis",
+        "code": "ZA",
+        "image_path": "2021/Amblyodipsas_polylepis/174302953.jpeg",
+        "class_id": 61,
+        "subset": "val"
+    },
+    {
+        "observation_id": 114851075,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Liasis olivaceus",
+        "code": "AU",
+        "image_path": "2022/Liasis_olivaceus/193892816.jpg",
+        "class_id": 927,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13935924,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus pricei",
+        "code": "US",
+        "image_path": "2018/Crotalus_pricei/20593682.jpg",
+        "class_id": 425,
+        "subset": "val"
+    },
+    {
+        "observation_id": 134961775,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bitis arietans",
+        "code": "SA",
+        "image_path": "2022/Bitis_arietans/230134429.jpeg",
+        "class_id": 154,
+        "subset": "val"
+    },
+    {
+        "observation_id": 144650294,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Gloydius halys",
+        "code": "MN",
+        "image_path": "2020/Gloydius_halys/248312219.jpeg",
+        "class_id": 739,
+        "subset": "val"
+    },
+    {
+        "observation_id": 133332455,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pseudagkistrodon rudis",
+        "code": "CN",
+        "image_path": "2022/Pseudagkistrodon_rudis/227096765.jpg",
+        "class_id": 1361,
+        "subset": "val"
+    },
+    {
+        "observation_id": 120352184,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Crotalus atrox",
+        "code": "unknown",
+        "image_path": "2022/Crotalus_atrox/203545639.jpg",
+        "class_id": 405,
+        "subset": "val"
+    },
+    {
+        "observation_id": 110185522,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ptyas mucosa",
+        "code": "LK",
+        "image_path": "2022/Ptyas_mucosa/185832147.jpg",
+        "class_id": 1414,
+        "subset": "val"
+    },
+    {
+        "observation_id": 108431025,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus semiaureus",
+        "code": "AR",
+        "image_path": "2022/Erythrolamprus_semiaureus/182560316.jpeg",
+        "class_id": 679,
+        "subset": "val"
+    },
+    {
+        "observation_id": 134142256,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Python bivittatus",
+        "code": "CN",
+        "image_path": "2022/Python_bivittatus/228603853.jpeg",
+        "class_id": 1418,
+        "subset": "val"
+    },
+    {
+        "observation_id": 27903255,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrophidion clarkii",
+        "code": "EC",
+        "image_path": "2019/Dendrophidion_clarkii/43458636.jpeg",
+        "class_id": 517,
+        "subset": "val"
+    },
+    {
+        "observation_id": 37748691,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ptyas mucosa",
+        "code": "TW",
+        "image_path": "2020/Ptyas_mucosa/59905194.jpeg",
+        "class_id": 1414,
+        "subset": "val"
+    },
+    {
+        "observation_id": 101995594,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix natrix",
+        "code": "HU",
+        "image_path": "2021/Natrix_natrix/170414133.jpeg",
+        "class_id": 1137,
+        "subset": "val"
+    },
+    {
+        "observation_id": 56392978,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Psammodynastes pulverulentus",
+        "code": "TH",
+        "image_path": "2008/Psammodynastes_pulverulentus/89866946.jpeg",
+        "class_id": 1334,
+        "subset": "val"
+    },
+    {
+        "observation_id": 101741032,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimorphodon tau",
+        "code": "MX",
+        "image_path": "2021/Trimorphodon_tau/169932296.jpeg",
+        "class_id": 1701,
+        "subset": "val"
+    },
+    {
+        "observation_id": 1600326,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus ornatus",
+        "code": "US",
+        "image_path": "2015/Crotalus_ornatus/1967130.jpg",
+        "class_id": 423,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145672947,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrelaphis kopsteini",
+        "code": "SG",
+        "image_path": "2023/Dendrelaphis_kopsteini/250268100.jpeg",
+        "class_id": 493,
+        "subset": "val"
+    },
+    {
+        "observation_id": 127930842,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oligodon formosanus",
+        "code": "TW",
+        "image_path": "2022/Oligodon_formosanus/217248117.jpeg",
+        "class_id": 1173,
+        "subset": "val"
+    },
+    {
+        "observation_id": 20492406,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptodeira polysticta",
+        "code": "GT",
+        "image_path": "2017/Leptodeira_polysticta/31626481.jpg",
+        "class_id": 903,
+        "subset": "val"
+    },
+    {
+        "observation_id": 628100,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Chersodromus liebmanni",
+        "code": "MX",
+        "image_path": "2010/Chersodromus_liebmanni/790527.JPG",
+        "class_id": 313,
+        "subset": "val"
+    },
+    {
+        "observation_id": 45887364,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tropidolaemus subannulatus",
+        "code": "BN",
+        "image_path": "2014/Tropidolaemus_subannulatus/72778539.jpeg",
+        "class_id": 1713,
+        "subset": "val"
+    },
+    {
+        "observation_id": 64843390,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Gonyosoma oxycephalum",
+        "code": "ID",
+        "image_path": "2020/Gonyosoma_oxycephalum/104313009.jpeg",
+        "class_id": 750,
+        "subset": "val"
+    },
+    {
+        "observation_id": 238505,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tantilla planiceps",
+        "code": "US",
+        "image_path": "2013/Tantilla_planiceps/299045.jpg",
+        "class_id": 1593,
+        "subset": "val"
+    },
+    {
+        "observation_id": 103434428,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dipsas neuwiedi",
+        "code": "BR",
+        "image_path": "2021/Dipsas_neuwiedi/173111510.jpeg",
+        "class_id": 548,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82980126,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Protobothrops jerdonii",
+        "code": "CN",
+        "image_path": "2021/Protobothrops_jerdonii/136243293.jpg",
+        "class_id": 1329,
+        "subset": "val"
+    },
+    {
+        "observation_id": 76577318,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Hydrophis platurus",
+        "code": "MX",
+        "image_path": "2021/Hydrophis_platurus/125253406.jpeg",
+        "class_id": 822,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140715182,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Philodryas olfersii",
+        "code": "BR",
+        "image_path": "2022/Philodryas_olfersii/240910775.jpeg",
+        "class_id": 1266,
+        "subset": "val"
+    },
+    {
+        "observation_id": 123932139,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Daboia russelii",
+        "code": "IN",
+        "image_path": "2022/Daboia_russelii/210007008.jpg",
+        "class_id": 464,
+        "subset": "val"
+    },
+    {
+        "observation_id": 103497116,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Sonora occipitalis",
+        "code": "US",
+        "image_path": "2021/Sonora_occipitalis/173231112.jpeg",
+        "class_id": 1538,
+        "subset": "val"
+    },
+    {
+        "observation_id": 16448354,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Demansia vestigiata",
+        "code": "AU",
+        "image_path": "2018/Demansia_vestigiata/24751475.jpg",
+        "class_id": 479,
+        "subset": "val"
+    },
+    {
+        "observation_id": 68031040,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coelognathus radiatus",
+        "code": "VN",
+        "image_path": "2021/Coelognathus_radiatus/110063585.jpeg",
+        "class_id": 356,
+        "subset": "val"
+    },
+    {
+        "observation_id": 115517573,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Aplopeltura boa",
+        "code": "TH",
+        "image_path": "2018/Aplopeltura_boa/194960862.jpeg",
+        "class_id": 83,
+        "subset": "val"
+    },
+    {
+        "observation_id": 50249449,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bitis peringueyi",
+        "code": "unknown",
+        "image_path": "2020/Bitis_peringueyi/79796600.jpg",
+        "class_id": 161,
+        "subset": "val"
+    },
+    {
+        "observation_id": 121233929,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Furina tristis",
+        "code": "AU",
+        "image_path": "2022/Furina_tristis/205141084.jpeg",
+        "class_id": 715,
+        "subset": "val"
+    },
+    {
+        "observation_id": 20781878,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptodeira rhombifera",
+        "code": "PA",
+        "image_path": "2019/Leptodeira_rhombifera/32049430.jpg",
+        "class_id": 905,
+        "subset": "val"
+    },
+    {
+        "observation_id": 12603203,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Cylindrophis jodiae",
+        "code": "TH",
+        "image_path": "2006/Cylindrophis_jodiae/28581872.jpeg",
+        "class_id": 457,
+        "subset": "val"
+    },
+    {
+        "observation_id": 105046515,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Porthidium lansbergii",
+        "code": "CO",
+        "image_path": "2022/Porthidium_lansbergii/176160593.jpg",
+        "class_id": 1315,
+        "subset": "val"
+    },
+    {
+        "observation_id": 97975158,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimeresurus kanburiensis",
+        "code": "TH",
+        "image_path": "2021/Trimeresurus_kanburiensis/163033837.jpeg",
+        "class_id": 1672,
+        "subset": "val"
+    },
+    {
+        "observation_id": 19329846,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Helicops infrataeniatus",
+        "code": "AR",
+        "image_path": "2016/Helicops_infrataeniatus/29720311.jpeg",
+        "class_id": 777,
+        "subset": "val"
+    },
+    {
+        "observation_id": 69033672,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Xenodon merremii",
+        "code": "BR",
+        "image_path": "2015/Xenodon_merremii/111927457.jpg",
+        "class_id": 1762,
+        "subset": "val"
+    },
+    {
+        "observation_id": 31823,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Natrix helvetica",
+        "code": "GB",
+        "image_path": "2010/Natrix_helvetica/54840.jpg",
+        "class_id": 1135,
+        "subset": "val"
+    },
+    {
+        "observation_id": 26038441,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tantilla armillata",
+        "code": "HN",
+        "image_path": "2019/Tantilla_armillata/40396579.jpeg",
+        "class_id": 1578,
+        "subset": "val"
+    },
+    {
+        "observation_id": 31914220,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Sinomicrurus sauteri",
+        "code": "TW",
+        "image_path": "2019/Sinomicrurus_sauteri/50001189.jpg",
+        "class_id": 1521,
+        "subset": "val"
+    },
+    {
+        "observation_id": 26352223,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Natrix helvetica",
+        "code": "IT",
+        "image_path": "2019/Natrix_helvetica/40912660.jpg",
+        "class_id": 1135,
+        "subset": "val"
+    },
+    {
+        "observation_id": 17132287,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pantherophis guttatus",
+        "code": "US",
+        "image_path": "2018/Pantherophis_guttatus/25949440.jpg",
+        "class_id": 1235,
+        "subset": "val"
+    },
+    {
+        "observation_id": 60734354,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix natrix",
+        "code": "CZ",
+        "image_path": "2020/Natrix_natrix/97134177.jpg",
+        "class_id": 1137,
+        "subset": "val"
+    },
+    {
+        "observation_id": 108403199,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Xenodon dorbignyi",
+        "code": "UY",
+        "image_path": "2022/Xenodon_dorbignyi/182507919.jpeg",
+        "class_id": 1759,
+        "subset": "val"
+    },
+    {
+        "observation_id": 40252493,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Vipera berus",
+        "code": "DK",
+        "image_path": "2020/Vipera_berus/63945035.jpg",
+        "class_id": 1736,
+        "subset": "val"
+    },
+    {
+        "observation_id": 143328552,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Salvadora hexalepis",
+        "code": "MX",
+        "image_path": "2022/Salvadora_hexalepis/245791132.jpg",
+        "class_id": 1487,
+        "subset": "val"
+    },
+    {
+        "observation_id": 134837258,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Aipysurus laevis",
+        "code": "NC",
+        "image_path": "2022/Aipysurus_laevis/229902127.jpeg",
+        "class_id": 50,
+        "subset": "val"
+    },
+    {
+        "observation_id": 120570859,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Zamenis longissimus",
+        "code": "HR",
+        "image_path": "2022/Zamenis_longissimus/203942232.jpeg",
+        "class_id": 1780,
+        "subset": "val"
+    },
+    {
+        "observation_id": 118117213,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Eunectes murinus",
+        "code": "EC",
+        "image_path": "2018/Eunectes_murinus/199532691.jpeg",
+        "class_id": 694,
+        "subset": "val"
+    },
+    {
+        "observation_id": 53505286,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Rhadinaea hesperia",
+        "code": "MX",
+        "image_path": "2017/Rhadinaea_hesperia/85102494.jpg",
+        "class_id": 1460,
+        "subset": "val"
+    },
+    {
+        "observation_id": 72203483,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Lampropeltis getula",
+        "code": "US",
+        "image_path": "2021/Lampropeltis_getula/117680605.jpeg",
+        "class_id": 867,
+        "subset": "val"
+    },
+    {
+        "observation_id": 35928207,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Imantodes lentiferus",
+        "code": "EC",
+        "image_path": "2019/Imantodes_lentiferus/56818776.jpg",
+        "class_id": 846,
+        "subset": "val"
+    },
+    {
+        "observation_id": 48050336,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Tantilla relicta",
+        "code": "US",
+        "image_path": "2020/Tantilla_relicta/76221205.jpeg",
+        "class_id": 1594,
+        "subset": "val"
+    },
+    {
+        "observation_id": 19238407,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus poecilogyrus",
+        "code": "PY",
+        "image_path": "2018/Erythrolamprus_poecilogyrus/29556865.jpeg",
+        "class_id": 673,
+        "subset": "val"
+    },
+    {
+        "observation_id": 23319638,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Austrelaps ramsayi",
+        "code": "AU",
+        "image_path": "2019/Austrelaps_ramsayi/36131807.jpeg",
+        "class_id": 151,
+        "subset": "val"
+    },
+    {
+        "observation_id": 3734931,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Sibon nebulatus",
+        "code": "MX",
+        "image_path": "2013/Sibon_nebulatus/4340044.jpeg",
+        "class_id": 1504,
+        "subset": "val"
+    },
+    {
+        "observation_id": 114075980,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimorphodon quadruplex",
+        "code": "NI",
+        "image_path": "2022/Trimorphodon_quadruplex/192673729.jpg",
+        "class_id": 1700,
+        "subset": "val"
+    },
+    {
+        "observation_id": 37597576,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotaphopeltis tornieri",
+        "code": "TZ",
+        "image_path": "2019/Crotaphopeltis_tornieri/59631805.jpeg",
+        "class_id": 445,
+        "subset": "val"
+    },
+    {
+        "observation_id": 94578000,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrelaphis ngansonensis",
+        "code": "TH",
+        "image_path": "2021/Dendrelaphis_ngansonensis/156906266.jpg",
+        "class_id": 496,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82250456,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Crotalus triseriatus",
+        "code": "MX",
+        "image_path": "2021/Crotalus_triseriatus/134980414.jpeg",
+        "class_id": 439,
+        "subset": "val"
+    },
+    {
+        "observation_id": 135750501,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Heterodon kennerlyi",
+        "code": "US",
+        "image_path": "2022/Heterodon_kennerlyi/231582643.jpeg",
+        "class_id": 794,
+        "subset": "val"
+    },
+    {
+        "observation_id": 29359710,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Helicops infrataeniatus",
+        "code": "UY",
+        "image_path": "2016/Helicops_infrataeniatus/45818490.jpeg",
+        "class_id": 777,
+        "subset": "val"
+    },
+    {
+        "observation_id": 104290405,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Cerberus rynchops",
+        "code": "TH",
+        "image_path": "2021/Cerberus_rynchops/174718124.jpeg",
+        "class_id": 305,
+        "subset": "val"
+    },
+    {
+        "observation_id": 99438371,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oligodon taeniolatus",
+        "code": "IN",
+        "image_path": "2021/Oligodon_taeniolatus/165927385.jpeg",
+        "class_id": 1183,
+        "subset": "val"
+    },
+    {
+        "observation_id": 16471036,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Agkistrodon russeolus",
+        "code": "MX",
+        "image_path": "2018/Agkistrodon_russeolus/24786019.jpeg",
+        "class_id": 33,
+        "subset": "val"
+    },
+    {
+        "observation_id": 4044251,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimorphodon vilkinsonii",
+        "code": "US",
+        "image_path": "2016/Trimorphodon_vilkinsonii/4786036.jpeg",
+        "class_id": 1702,
+        "subset": "val"
+    },
+    {
+        "observation_id": 7757505,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis validus",
+        "code": "MX",
+        "image_path": "2017/Thamnophis_validus/10183091.jpg",
+        "class_id": 1646,
+        "subset": "val"
+    },
+    {
+        "observation_id": 10150468,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Causus defilippii",
+        "code": "ZA",
+        "image_path": "2018/Causus_defilippii/14006282.jpg",
+        "class_id": 294,
+        "subset": "val"
+    },
+    {
+        "observation_id": 111403456,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Natrix helvetica",
+        "code": "GB",
+        "image_path": "2022/Natrix_helvetica/188061182.jpg",
+        "class_id": 1135,
+        "subset": "val"
+    },
+    {
+        "observation_id": 129125128,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Elaphe quatuorlineata",
+        "code": "IT",
+        "image_path": "2020/Elaphe_quatuorlineata/219397850.jpg",
+        "class_id": 619,
+        "subset": "val"
+    },
+    {
+        "observation_id": 110477907,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Natrix helvetica",
+        "code": "BE",
+        "image_path": "2021/Natrix_helvetica/186373380.jpg",
+        "class_id": 1135,
+        "subset": "val"
+    },
+    {
+        "observation_id": 87405884,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Malpolon moilensis",
+        "code": "MA",
+        "image_path": "2020/Malpolon_moilensis/144103078.jpg",
+        "class_id": 1007,
+        "subset": "val"
+    },
+    {
+        "observation_id": 63004530,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Rhamphiophis rostratus",
+        "code": "TZ",
+        "image_path": "2020/Rhamphiophis_rostratus/101047496.jpeg",
+        "class_id": 1471,
+        "subset": "val"
+    },
+    {
+        "observation_id": 103043968,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Corallus annulatus",
+        "code": "CR",
+        "image_path": "2020/Corallus_annulatus/172375965.jpeg",
+        "class_id": 380,
+        "subset": "val"
+    },
+    {
+        "observation_id": 1027956,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxybelis brevirostris",
+        "code": "PA",
+        "image_path": "2013/Oxybelis_brevirostris/1288999.JPG",
+        "class_id": 1206,
+        "subset": "val"
+    },
+    {
+        "observation_id": 136977033,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bothrops bilineatus",
+        "code": "PE",
+        "image_path": "2022/Bothrops_bilineatus/233808123.jpg",
+        "class_id": 225,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140616141,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxyrhopus petolarius",
+        "code": "CO",
+        "image_path": "2022/Oxyrhopus_petolarius/240726206.jpg",
+        "class_id": 1225,
+        "subset": "val"
+    },
+    {
+        "observation_id": 21030232,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Micrurus ephippifer",
+        "code": "MX",
+        "image_path": "2019/Micrurus_ephippifer/32485528.jpeg",
+        "class_id": 1058,
+        "subset": "val"
+    },
+    {
+        "observation_id": 146740538,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Corallus annulatus",
+        "code": "CR",
+        "image_path": "2023/Corallus_annulatus/252356073.jpg",
+        "class_id": 380,
+        "subset": "val"
+    },
+    {
+        "observation_id": 40549780,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Spilotes sulphureus",
+        "code": "EC",
+        "image_path": "2020/Spilotes_sulphureus/64263698.jpg",
+        "class_id": 1546,
+        "subset": "val"
+    },
+    {
+        "observation_id": 61547165,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coronella austriaca",
+        "code": "AT",
+        "image_path": "2020/Coronella_austriaca/98502895.jpeg",
+        "class_id": 387,
+        "subset": "val"
+    },
+    {
+        "observation_id": 96415397,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lampropeltis rhombomaculata",
+        "code": "US",
+        "image_path": "2019/Lampropeltis_rhombomaculata/160172866.jpeg",
+        "class_id": 878,
+        "subset": "val"
+    },
+    {
+        "observation_id": 144902344,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Chrysopelea paradisi",
+        "code": "PH",
+        "image_path": "2022/Chrysopelea_paradisi/248806354.jpeg",
+        "class_id": 346,
+        "subset": "val"
+    },
+    {
+        "observation_id": 4849284,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Psammodynastes pulverulentus",
+        "code": "ID",
+        "image_path": "2016/Psammodynastes_pulverulentus/5889679.jpeg",
+        "class_id": 1334,
+        "subset": "val"
+    },
+    {
+        "observation_id": 138545117,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus epinephalus",
+        "code": "EC",
+        "image_path": "2022/Erythrolamprus_epinephalus/236822594.jpg",
+        "class_id": 664,
+        "subset": "val"
+    },
+    {
+        "observation_id": 20841026,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bothrops asper",
+        "code": "CR",
+        "image_path": "2010/Bothrops_asper/32149932.jpg",
+        "class_id": 223,
+        "subset": "val"
+    },
+    {
+        "observation_id": 81471405,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coronella austriaca",
+        "code": "AT",
+        "image_path": "2021/Coronella_austriaca/133655951.jpg",
+        "class_id": 387,
+        "subset": "val"
+    },
+    {
+        "observation_id": 100840728,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Xenopeltis hainanensis",
+        "code": "CN",
+        "image_path": "2016/Xenopeltis_hainanensis/168346309.jpg",
+        "class_id": 1768,
+        "subset": "val"
+    },
+    {
+        "observation_id": 37905174,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus aesculapii",
+        "code": "BR",
+        "image_path": "2017/Erythrolamprus_aesculapii/60161442.jpeg",
+        "class_id": 657,
+        "subset": "val"
+    },
+    {
+        "observation_id": 119154705,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus semiaureus",
+        "code": "AR",
+        "image_path": "2022/Erythrolamprus_semiaureus/201395337.jpeg",
+        "class_id": 679,
+        "subset": "val"
+    },
+    {
+        "observation_id": 23240042,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Hydrophis platurus",
+        "code": "CR",
+        "image_path": "2019/Hydrophis_platurus/36011162.jpg",
+        "class_id": 822,
+        "subset": "val"
+    },
+    {
+        "observation_id": 101916755,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus durissus",
+        "code": "CO",
+        "image_path": "2014/Crotalus_durissus/170266898.jpg",
+        "class_id": 412,
+        "subset": "val"
+    },
+    {
+        "observation_id": 8524677,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimeresurus sabahi",
+        "code": "ID",
+        "image_path": "2017/Trimeresurus_sabahi/11382786.jpeg",
+        "class_id": 1681,
+        "subset": "val"
+    },
+    {
+        "observation_id": 142862154,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pantherophis obsoletus",
+        "code": "US",
+        "image_path": "2022/Pantherophis_obsoletus/244995680.jpg",
+        "class_id": 1236,
+        "subset": "val"
+    },
+    {
+        "observation_id": 108278665,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Sibon annulatus",
+        "code": "CR",
+        "image_path": "2022/Sibon_annulatus/182276124.jpeg",
+        "class_id": 1499,
+        "subset": "val"
+    },
+    {
+        "observation_id": 19618168,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trachyboa boulengeri",
+        "code": "EC",
+        "image_path": "2018/Trachyboa_boulengeri/30205496.jpeg",
+        "class_id": 1657,
+        "subset": "val"
+    },
+    {
+        "observation_id": 127518164,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxybelis wilsoni",
+        "code": "HN",
+        "image_path": "2018/Oxybelis_wilsoni/216495587.jpg",
+        "class_id": 1214,
+        "subset": "val"
+    },
+    {
+        "observation_id": 48271366,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pantherophis ramspotti",
+        "code": "US",
+        "image_path": "2020/Pantherophis_ramspotti/76580487.jpg",
+        "class_id": 1237,
+        "subset": "val"
+    },
+    {
+        "observation_id": 19323035,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Afrotyphlops bibronii",
+        "code": "ZA",
+        "image_path": "2018/Afrotyphlops_bibronii/29707689.jpeg",
+        "class_id": 21,
+        "subset": "val"
+    },
+    {
+        "observation_id": 51643938,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Chironius fuscus",
+        "code": "EC",
+        "image_path": "2019/Chironius_fuscus/82064747.jpg",
+        "class_id": 331,
+        "subset": "val"
+    },
+    {
+        "observation_id": 10213453,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coniophanes fissidens",
+        "code": "PA",
+        "image_path": "2010/Coniophanes_fissidens/14112623.jpg",
+        "class_id": 364,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13607814,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Deinagkistrodon acutus",
+        "code": "TW",
+        "image_path": "2013/Deinagkistrodon_acutus/20022292.jpeg",
+        "class_id": 470,
+        "subset": "val"
+    },
+    {
+        "observation_id": 146967130,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Spilotes pullatus",
+        "code": "AR",
+        "image_path": "2023/Spilotes_pullatus/252799773.jpg",
+        "class_id": 1545,
+        "subset": "val"
+    },
+    {
+        "observation_id": 115970639,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix tessellata",
+        "code": "RO",
+        "image_path": "2022/Natrix_tessellata/195726530.jpg",
+        "class_id": 1138,
+        "subset": "val"
+    },
+    {
+        "observation_id": 31259119,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Imantodes cenchoa",
+        "code": "CO",
+        "image_path": "2019/Imantodes_cenchoa/48908856.jpg",
+        "class_id": 842,
+        "subset": "val"
+    },
+    {
+        "observation_id": 135715794,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Demansia papuensis",
+        "code": "AU",
+        "image_path": "2022/Demansia_papuensis/231516022.jpg",
+        "class_id": 473,
+        "subset": "val"
+    },
+    {
+        "observation_id": 139684351,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pituophis deppei",
+        "code": "MX",
+        "image_path": "2022/Pituophis_deppei/238959944.jpg",
+        "class_id": 1293,
+        "subset": "val"
+    },
+    {
+        "observation_id": 99438371,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oligodon taeniolatus",
+        "code": "IN",
+        "image_path": "2021/Oligodon_taeniolatus/165927347.jpeg",
+        "class_id": 1183,
+        "subset": "val"
+    },
+    {
+        "observation_id": 94141554,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Telescopus fallax",
+        "code": "GR",
+        "image_path": "2021/Telescopus_fallax/156130627.jpg",
+        "class_id": 1608,
+        "subset": "val"
+    },
+    {
+        "observation_id": 4015966,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ahaetulla prasina",
+        "code": "MY",
+        "image_path": "2016/Ahaetulla_prasina/4743337.jpg",
+        "class_id": 47,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13185200,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Cemophora coccinea",
+        "code": "unknown",
+        "image_path": "2015/Cemophora_coccinea/19271469.jpg",
+        "class_id": 299,
+        "subset": "val"
+    },
+    {
+        "observation_id": 124010789,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Craspedocephalus puniceus",
+        "code": "ID",
+        "image_path": "2022/Craspedocephalus_puniceus/210146696.jpeg",
+        "class_id": 396,
+        "subset": "val"
+    },
+    {
+        "observation_id": 126563781,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix tessellata",
+        "code": "HU",
+        "image_path": "2021/Natrix_tessellata/214755207.jpeg",
+        "class_id": 1138,
+        "subset": "val"
+    },
+    {
+        "observation_id": 67875932,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pseudechis porphyriacus",
+        "code": "AU",
+        "image_path": "2021/Pseudechis_porphyriacus/109776816.jpg",
+        "class_id": 1375,
+        "subset": "val"
+    },
+    {
+        "observation_id": 54934104,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pantherophis ramspotti",
+        "code": "US",
+        "image_path": "2020/Pantherophis_ramspotti/91103071.jpg",
+        "class_id": 1237,
+        "subset": "val"
+    },
+    {
+        "observation_id": 121685837,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coronella austriaca",
+        "code": "UA",
+        "image_path": "2018/Coronella_austriaca/205945873.jpeg",
+        "class_id": 387,
+        "subset": "val"
+    },
+    {
+        "observation_id": 63556891,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Gonyosoma oxycephalum",
+        "code": "KH",
+        "image_path": "2012/Gonyosoma_oxycephalum/102020633.jpg",
+        "class_id": 750,
+        "subset": "val"
+    },
+    {
+        "observation_id": 33088431,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Psammophis crucifer",
+        "code": "ZA",
+        "image_path": "2019/Psammophis_crucifer/51938865.jpg",
+        "class_id": 1340,
+        "subset": "val"
+    },
+    {
+        "observation_id": 105145471,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Prosymna janii",
+        "code": "ZA",
+        "image_path": "2022/Prosymna_janii/176352328.jpg",
+        "class_id": 1322,
+        "subset": "val"
+    },
+    {
+        "observation_id": 37678917,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Rhabdophis chrysargoides",
+        "code": "ID",
+        "image_path": "2020/Rhabdophis_chrysargoides/59783020.jpeg",
+        "class_id": 1437,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82874590,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bothriechis supraciliaris",
+        "code": "CR",
+        "image_path": "2021/Bothriechis_supraciliaris/136056112.jpg",
+        "class_id": 212,
+        "subset": "val"
+    },
+    {
+        "observation_id": 102913060,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Rhinotyphlops lalandei",
+        "code": "BW",
+        "image_path": "2021/Rhinotyphlops_lalandei/172132583.jpg",
+        "class_id": 1481,
+        "subset": "val"
+    },
+    {
+        "observation_id": 6005481,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Asthenodipsas malaccanus",
+        "code": "unknown",
+        "image_path": "2015/Asthenodipsas_malaccanus/7512562.jpeg",
+        "class_id": 106,
+        "subset": "val"
+    },
+    {
+        "observation_id": 8679849,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coniophanes fissidens",
+        "code": "MX",
+        "image_path": "2017/Coniophanes_fissidens/11630110.jpeg",
+        "class_id": 364,
+        "subset": "val"
+    },
+    {
+        "observation_id": 2923595,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptophis ahaetulla",
+        "code": "MX",
+        "image_path": "2015/Leptophis_ahaetulla/3348124.jpg",
+        "class_id": 912,
+        "subset": "val"
+    },
+    {
+        "observation_id": 22316298,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Corallus hortulana",
+        "code": "PE",
+        "image_path": "2016/Corallus_hortulana/34561503.jpeg",
+        "class_id": 385,
+        "subset": "val"
+    },
+    {
+        "observation_id": 104162106,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Atractaspis bibronii",
+        "code": "ZA",
+        "image_path": "2022/Atractaspis_bibronii/174504042.jpeg",
+        "class_id": 113,
+        "subset": "val"
+    },
+    {
+        "observation_id": 121549630,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Porthidium nasutum",
+        "code": "HN",
+        "image_path": "2022/Porthidium_nasutum/205694608.jpg",
+        "class_id": 1316,
+        "subset": "val"
+    },
+    {
+        "observation_id": 5156592,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Coniophanes quinquevittatus",
+        "code": "MX",
+        "image_path": "2017/Coniophanes_quinquevittatus/6354164.jpg",
+        "class_id": 369,
+        "subset": "val"
+    },
+    {
+        "observation_id": 14995131,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Tantilla rubra",
+        "code": "MX",
+        "image_path": "2018/Tantilla_rubra/22368210.jpg",
+        "class_id": 1596,
+        "subset": "val"
+    },
+    {
+        "observation_id": 23007934,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ninia sebae",
+        "code": "HN",
+        "image_path": "2019/Ninia_sebae/35657402.jpg",
+        "class_id": 1156,
+        "subset": "val"
+    },
+    {
+        "observation_id": 11281274,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pantherophis spiloides",
+        "code": "US",
+        "image_path": "2018/Pantherophis_spiloides/16040825.jpg",
+        "class_id": 1239,
+        "subset": "val"
+    },
+    {
+        "observation_id": 104802317,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Morelia imbricata",
+        "code": "AU",
+        "image_path": "2022/Morelia_imbricata/175691402.jpeg",
+        "class_id": 1097,
+        "subset": "val"
+    },
+    {
+        "observation_id": 64054799,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lichanura trivirgata",
+        "code": "MX",
+        "image_path": "2020/Lichanura_trivirgata/102914018.jpg",
+        "class_id": 929,
+        "subset": "val"
+    },
+    {
+        "observation_id": 38878614,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnodynastes pallidus",
+        "code": "BO",
+        "image_path": "2019/Thamnodynastes_pallidus/61827178.jpeg",
+        "class_id": 1613,
+        "subset": "val"
+    },
+    {
+        "observation_id": 140129751,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ptyas korros",
+        "code": "CN",
+        "image_path": "2022/Ptyas_korros/239819958.jpg",
+        "class_id": 1412,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82105562,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis butleri",
+        "code": "unknown",
+        "image_path": "2021/Thamnophis_butleri/134727182.jpeg",
+        "class_id": 1619,
+        "subset": "val"
+    },
+    {
+        "observation_id": 53323014,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Drymobius margaritiferus",
+        "code": "HN",
+        "image_path": "2016/Drymobius_margaritiferus/84801528.jpeg",
+        "class_id": 573,
+        "subset": "val"
+    },
+    {
+        "observation_id": 99848118,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Elapoidis fusca",
+        "code": "ID",
+        "image_path": "2021/Elapoidis_fusca/166539771.jpg",
+        "class_id": 626,
+        "subset": "val"
+    },
+    {
+        "observation_id": 1793844,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Nerodia harteri",
+        "code": "unknown",
+        "image_path": "2015/Nerodia_harteri/2173465.jpg",
+        "class_id": 1145,
+        "subset": "val"
+    },
+    {
+        "observation_id": 75839711,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus poecilogyrus",
+        "code": "BR",
+        "image_path": "2015/Erythrolamprus_poecilogyrus/124096520.jpeg",
+        "class_id": 673,
+        "subset": "val"
+    },
+    {
+        "observation_id": 135018965,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus almadensis",
+        "code": "BR",
+        "image_path": "2021/Erythrolamprus_almadensis/230235079.jpeg",
+        "class_id": 658,
+        "subset": "val"
+    },
+    {
+        "observation_id": 12423082,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pantherophis guttatus",
+        "code": "unknown",
+        "image_path": "2018/Pantherophis_guttatus/17913055.jpg",
+        "class_id": 1235,
+        "subset": "val"
+    },
+    {
+        "observation_id": 139669740,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Mastigodryas cliftoni",
+        "code": "MX",
+        "image_path": "2022/Mastigodryas_cliftoni/238931209.jpeg",
+        "class_id": 1021,
+        "subset": "val"
+    },
+    {
+        "observation_id": 112789332,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Python bivittatus",
+        "code": "CN",
+        "image_path": "2019/Python_bivittatus/190534487.jpg",
+        "class_id": 1418,
+        "subset": "val"
+    },
+    {
+        "observation_id": 101668406,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Chironius laevicollis",
+        "code": "BR",
+        "image_path": "2021/Chironius_laevicollis/169800421.jpeg",
+        "class_id": 334,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145494420,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Euprepiophis mandarinus",
+        "code": "unknown",
+        "image_path": "2021/Euprepiophis_mandarinus/249920807.jpg",
+        "class_id": 697,
+        "subset": "val"
+    },
+    {
+        "observation_id": 109829526,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Micrurus sangilensis",
+        "code": "CO",
+        "image_path": "2022/Micrurus_sangilensis/185180486.jpeg",
+        "class_id": 1078,
+        "subset": "val"
+    },
+    {
+        "observation_id": 72860283,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lampropeltis splendida",
+        "code": "US",
+        "image_path": "2021/Lampropeltis_splendida/118873310.jpg",
+        "class_id": 880,
+        "subset": "val"
+    },
+    {
+        "observation_id": 71824888,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Dipsas sanctijoannis",
+        "code": "CO",
+        "image_path": "2021/Dipsas_sanctijoannis/117000968.jpeg",
+        "class_id": 551,
+        "subset": "val"
+    },
+    {
+        "observation_id": 61022543,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Crotalus tlaloci",
+        "code": "MX",
+        "image_path": "2020/Crotalus_tlaloci/97614036.jpeg",
+        "class_id": 435,
+        "subset": "val"
+    },
+    {
+        "observation_id": 111806829,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix natrix",
+        "code": "unknown",
+        "image_path": "2022/Natrix_natrix/188789570.jpeg",
+        "class_id": 1137,
+        "subset": "val"
+    },
+    {
+        "observation_id": 7395588,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimorphodon lambda",
+        "code": "US",
+        "image_path": "2017/Trimorphodon_lambda/9601673.jpg",
+        "class_id": 1697,
+        "subset": "val"
+    },
+    {
+        "observation_id": 61944807,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Chironius multiventris",
+        "code": "BR",
+        "image_path": "2020/Chironius_multiventris/99185457.jpeg",
+        "class_id": 338,
+        "subset": "val"
+    },
+    {
+        "observation_id": 66644065,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Sinomicrurus macclellandi",
+        "code": "CN",
+        "image_path": "2020/Sinomicrurus_macclellandi/107480527.jpg",
+        "class_id": 1520,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145600376,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Mastigodryas reticulatus",
+        "code": "EC",
+        "image_path": "2022/Mastigodryas_reticulatus/250126589.jpeg",
+        "class_id": 1028,
+        "subset": "val"
+    },
+    {
+        "observation_id": 67268802,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Echinanthera cyanopleura",
+        "code": "BR",
+        "image_path": "2018/Echinanthera_cyanopleura/108642149.jpeg",
+        "class_id": 591,
+        "subset": "val"
+    },
+    {
+        "observation_id": 160889,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Pituophis ruthveni",
+        "code": "US",
+        "image_path": "2007/Pituophis_ruthveni/217897.jpg",
+        "class_id": 1296,
+        "subset": "val"
+    },
+    {
+        "observation_id": 11258926,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptotyphlops nigricans",
+        "code": "ZA",
+        "image_path": "2016/Leptotyphlops_nigricans/15997171.jpg",
+        "class_id": 922,
+        "subset": "val"
+    },
+    {
+        "observation_id": 33120961,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix natrix",
+        "code": "HU",
+        "image_path": "2017/Natrix_natrix/51994008.jpeg",
+        "class_id": 1137,
+        "subset": "val"
+    },
+    {
+        "observation_id": 76618266,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Duberria lutrix",
+        "code": "KE",
+        "image_path": "2021/Duberria_lutrix/125319123.jpg",
+        "class_id": 587,
+        "subset": "val"
+    },
+    {
+        "observation_id": 145411448,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Brachyurophis roperi",
+        "code": "AU",
+        "image_path": "2022/Brachyurophis_roperi/249897548.jpg",
+        "class_id": 254,
+        "subset": "val"
+    },
+    {
+        "observation_id": 18766778,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Virginia valeriae",
+        "code": "unknown",
+        "image_path": "2018/Virginia_valeriae/28739847.jpg",
+        "class_id": 1751,
+        "subset": "val"
+    },
+    {
+        "observation_id": 27703998,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Stenorrhina freminvillei",
+        "code": "MX",
+        "image_path": "2016/Stenorrhina_freminvillei/43131586.jpg",
+        "class_id": 1550,
+        "subset": "val"
+    },
+    {
+        "observation_id": 44691645,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Boa imperator",
+        "code": "BZ",
+        "image_path": "2016/Boa_imperator/70856106.jpg",
+        "class_id": 167,
+        "subset": "val"
+    },
+    {
+        "observation_id": 42443614,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Bothrops taeniatus",
+        "code": "BR",
+        "image_path": "2015/Bothrops_taeniatus/67394373.jpg",
+        "class_id": 248,
+        "subset": "val"
+    },
+    {
+        "observation_id": 80303778,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix tessellata",
+        "code": "UA",
+        "image_path": "2021/Natrix_tessellata/131607599.jpeg",
+        "class_id": 1138,
+        "subset": "val"
+    },
+    {
+        "observation_id": 66733152,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Myriopholis longicauda",
+        "code": "ZW",
+        "image_path": "2020/Myriopholis_longicauda/107645504.jpg",
+        "class_id": 1101,
+        "subset": "val"
+    },
+    {
+        "observation_id": 39322771,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Natrix tessellata",
+        "code": "AZ",
+        "image_path": "2007/Natrix_tessellata/62369247.jpeg",
+        "class_id": 1138,
+        "subset": "val"
+    },
+    {
+        "observation_id": 7050161,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis cyrtopsis",
+        "code": "MX",
+        "image_path": "2017/Thamnophis_cyrtopsis/9048987.jpeg",
+        "class_id": 1624,
+        "subset": "val"
+    },
+    {
+        "observation_id": 143190408,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Eunectes murinus",
+        "code": "EC",
+        "image_path": "2022/Eunectes_murinus/245546318.jpg",
+        "class_id": 694,
+        "subset": "val"
+    },
+    {
+        "observation_id": 141757505,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Daboia russelii",
+        "code": "LK",
+        "image_path": "2022/Daboia_russelii/242924731.jpeg",
+        "class_id": 464,
+        "subset": "val"
+    },
+    {
+        "observation_id": 127518164,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxybelis wilsoni",
+        "code": "HN",
+        "image_path": "2018/Oxybelis_wilsoni/216495570.jpg",
+        "class_id": 1214,
+        "subset": "val"
+    },
+    {
+        "observation_id": 112761752,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Storeria dekayi",
+        "code": "CA",
+        "image_path": "2022/Storeria_dekayi/190483988.jpeg",
+        "class_id": 1551,
+        "subset": "val"
+    },
+    {
+        "observation_id": 8683896,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Chilomeniscus stramineus",
+        "code": "US",
+        "image_path": "2017/Chilomeniscus_stramineus/11637117.jpg",
+        "class_id": 321,
+        "subset": "val"
+    },
+    {
+        "observation_id": 98970783,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Hydrophis schistosus",
+        "code": "IN",
+        "image_path": "2018/Hydrophis_schistosus/165115220.jpeg",
+        "class_id": 823,
+        "subset": "val"
+    },
+    {
+        "observation_id": 42286395,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Erythrolamprus reginae",
+        "code": "EC",
+        "image_path": "2004/Erythrolamprus_reginae/67133428.jpeg",
+        "class_id": 677,
+        "subset": "val"
+    },
+    {
+        "observation_id": 92863263,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Borikenophis portoricensis",
+        "code": "PR",
+        "image_path": "2021/Borikenophis_portoricensis/153824768.jpg",
+        "class_id": 203,
+        "subset": "val"
+    },
+    {
+        "observation_id": 15224680,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Boa imperator",
+        "code": "SV",
+        "image_path": "2018/Boa_imperator/22780178.jpg",
+        "class_id": 167,
+        "subset": "val"
+    },
+    {
+        "observation_id": 41622,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Oxyrhopus leucomelas",
+        "code": "CO",
+        "image_path": "2011/Oxyrhopus_leucomelas/68976.JPG",
+        "class_id": 1222,
+        "subset": "val"
+    },
+    {
+        "observation_id": 111957958,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Thamnophis melanogaster",
+        "code": "MX",
+        "image_path": "2022/Thamnophis_melanogaster/189063245.jpeg",
+        "class_id": 1633,
+        "subset": "val"
+    },
+    {
+        "observation_id": 132057582,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Spilotes pullatus",
+        "code": "MX",
+        "image_path": "2022/Spilotes_pullatus/224828881.jpeg",
+        "class_id": 1545,
+        "subset": "val"
+    },
+    {
+        "observation_id": 22377865,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Naja pallida",
+        "code": "TZ",
+        "image_path": "1996/Naja_pallida/34658630.jpg",
+        "class_id": 1121,
+        "subset": "val"
+    },
+    {
+        "observation_id": 82555390,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Zamenis longissimus",
+        "code": "RO",
+        "image_path": "2021/Zamenis_longissimus/135505735.jpg",
+        "class_id": 1780,
+        "subset": "val"
+    },
+    {
+        "observation_id": 12419020,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Masticophis fuliginosus",
+        "code": "US",
+        "image_path": "2018/Masticophis_fuliginosus/17906208.jpg",
+        "class_id": 1014,
+        "subset": "val"
+    },
+    {
+        "observation_id": 106052358,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ophiophagus hannah",
+        "code": "HK",
+        "image_path": "2020/Ophiophagus_hannah/178077916.jpg",
+        "class_id": 1190,
+        "subset": "val"
+    },
+    {
+        "observation_id": 21202128,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Macroprotodon mauritanicus",
+        "code": "ES",
+        "image_path": "2012/Macroprotodon_mauritanicus/32773398.jpeg",
+        "class_id": 997,
+        "subset": "val"
+    },
+    {
+        "observation_id": 135885395,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ptyas mucosa",
+        "code": "TW",
+        "image_path": "2022/Ptyas_mucosa/231836734.jpeg",
+        "class_id": 1414,
+        "subset": "val"
+    },
+    {
+        "observation_id": 136621061,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Micrurus distans",
+        "code": "MX",
+        "image_path": "2022/Micrurus_distans/233194649.jpg",
+        "class_id": 1054,
+        "subset": "val"
+    },
+    {
+        "observation_id": 108603768,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Micrurus alleni",
+        "code": "CR",
+        "image_path": "2022/Micrurus_alleni/182885208.jpeg",
+        "class_id": 1041,
+        "subset": "val"
+    },
+    {
+        "observation_id": 77931559,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Euprepiophis mandarinus",
+        "code": "TW",
+        "image_path": "2021/Euprepiophis_mandarinus/127485094.jpg",
+        "class_id": 697,
+        "subset": "val"
+    },
+    {
+        "observation_id": 39309330,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Acrochordus granulatus",
+        "code": "TH",
+        "image_path": "2020/Acrochordus_granulatus/62347155.jpeg",
+        "class_id": 14,
+        "subset": "val"
+    },
+    {
+        "observation_id": 4112538,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Rhadinaea decorata",
+        "code": "CR",
+        "image_path": "2009/Rhadinaea_decorata/4887786.jpeg",
+        "class_id": 1457,
+        "subset": "val"
+    },
+    {
+        "observation_id": 139260917,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Ungaliophis panamensis",
+        "code": "PA",
+        "image_path": "2022/Ungaliophis_panamensis/238153694.jpg",
+        "class_id": 1721,
+        "subset": "val"
+    },
+    {
+        "observation_id": 251445,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Pliocercus euryzonus",
+        "code": "CO",
+        "image_path": "2013/Pliocercus_euryzonus/313502.JPG",
+        "class_id": 1311,
+        "subset": "val"
+    },
+    {
+        "observation_id": 105510939,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lachesis muta",
+        "code": "PE",
+        "image_path": "2022/Lachesis_muta/177043530.jpeg",
+        "class_id": 857,
+        "subset": "val"
+    },
+    {
+        "observation_id": 69037896,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Heterodon kennerlyi",
+        "code": "MX",
+        "image_path": "2005/Heterodon_kennerlyi/111934495.jpeg",
+        "class_id": 794,
+        "subset": "val"
+    },
+    {
+        "observation_id": 790216,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Platyceps rogersi",
+        "code": "IL",
+        "image_path": "2014/Platyceps_rogersi/993697.jpg",
+        "class_id": 1306,
+        "subset": "val"
+    },
+    {
+        "observation_id": 106718146,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptodeira frenata",
+        "code": "MX",
+        "image_path": "2022/Leptodeira_frenata/179395917.jpg",
+        "class_id": 899,
+        "subset": "val"
+    },
+    {
+        "observation_id": 128141065,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Atretium schistosum",
+        "code": "IN",
+        "image_path": "2022/Atretium_schistosum/217632496.jpeg",
+        "class_id": 149,
+        "subset": "val"
+    },
+    {
+        "observation_id": 62137385,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Leptodeira polysticta",
+        "code": "MX",
+        "image_path": "2020/Leptodeira_polysticta/99519355.jpeg",
+        "class_id": 903,
+        "subset": "val"
+    },
+    {
+        "observation_id": 133714316,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Tantilla calamarina",
+        "code": "MX",
+        "image_path": "2022/Tantilla_calamarina/227801788.jpg",
+        "class_id": 1582,
+        "subset": "val"
+    },
+    {
+        "observation_id": 132405545,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Lycodon laoensis",
+        "code": "TH",
+        "image_path": "2022/Lycodon_laoensis/225477182.jpeg",
+        "class_id": 959,
+        "subset": "val"
+    },
+    {
+        "observation_id": 60263447,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Cacophis harriettae",
+        "code": "AU",
+        "image_path": "2013/Cacophis_harriettae/96344007.jpg",
+        "class_id": 264,
+        "subset": "val"
+    },
+    {
+        "observation_id": 32733292,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Helicops angulatus",
+        "code": "EC",
+        "image_path": "2018/Helicops_angulatus/51356866.jpg",
+        "class_id": 773,
+        "subset": "val"
+    },
+    {
+        "observation_id": 38680877,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Tantillita lintoni",
+        "code": "HN",
+        "image_path": "2010/Tantillita_lintoni/61512044.jpeg",
+        "class_id": 1605,
+        "subset": "val"
+    },
+    {
+        "observation_id": 139196724,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Micrurus surinamensis",
+        "code": "PE",
+        "image_path": "2022/Micrurus_surinamensis/238037634.jpg",
+        "class_id": 1081,
+        "subset": "val"
+    },
+    {
+        "observation_id": 109399816,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Atractus major",
+        "code": "EC",
+        "image_path": "2022/Atractus_major/184376863.jpeg",
+        "class_id": 130,
+        "subset": "val"
+    },
+    {
+        "observation_id": 112597259,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Sistrurus tergeminus",
+        "code": "unknown",
+        "image_path": "2022/Sistrurus_tergeminus/190189581.jpg",
+        "class_id": 1530,
+        "subset": "val"
+    },
+    {
+        "observation_id": 105494112,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Elaphe sauromates",
+        "code": "UA",
+        "image_path": "2019/Elaphe_sauromates/177015644.jpeg",
+        "class_id": 620,
+        "subset": "val"
+    },
+    {
+        "observation_id": 29626300,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Trimeresurus erythrurus",
+        "code": "IN",
+        "image_path": "2018/Trimeresurus_erythrurus/46246414.jpg",
+        "class_id": 1665,
+        "subset": "val"
+    },
+    {
+        "observation_id": 107039619,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Laticauda semifasciata",
+        "code": "JP",
+        "image_path": "2022/Laticauda_semifasciata/179947554.jpg",
+        "class_id": 891,
+        "subset": "val"
+    },
+    {
+        "observation_id": 35928207,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Imantodes lentiferus",
+        "code": "EC",
+        "image_path": "2019/Imantodes_lentiferus/56818933.jpg",
+        "class_id": 846,
+        "subset": "val"
+    },
+    {
+        "observation_id": 102493007,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Philodryas patagoniensis",
+        "code": "AR",
+        "image_path": "2021/Philodryas_patagoniensis/171341811.jpeg",
+        "class_id": 1267,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13358288,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Psammophis trigrammus",
+        "code": "unknown",
+        "image_path": "2018/Psammophis_trigrammus/19581098.jpg",
+        "class_id": 1356,
+        "subset": "val"
+    },
+    {
+        "observation_id": 130775618,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Epicrates cenchria",
+        "code": "PE",
+        "image_path": "2022/Epicrates_cenchria/222452343.jpg",
+        "class_id": 641,
+        "subset": "val"
+    },
+    {
+        "observation_id": 138604990,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Achalinus spinalis",
+        "code": "JP",
+        "image_path": "2021/Achalinus_spinalis/236937759.jpg",
+        "class_id": 10,
+        "subset": "val"
+    },
+    {
+        "observation_id": 22914864,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Contia longicaudae",
+        "code": "US",
+        "image_path": "2019/Contia_longicaudae/35518455.jpg",
+        "class_id": 378,
+        "subset": "val"
+    },
+    {
+        "observation_id": 16448354,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Demansia vestigiata",
+        "code": "AU",
+        "image_path": "2018/Demansia_vestigiata/24751476.jpg",
+        "class_id": 479,
+        "subset": "val"
+    },
+    {
+        "observation_id": 66951542,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrelaphis calligaster",
+        "code": "AU",
+        "image_path": "2020/Dendrelaphis_calligaster/108052690.jpeg",
+        "class_id": 482,
+        "subset": "val"
+    },
+    {
+        "observation_id": 31195588,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Rhadinaea flavilata",
+        "code": "US",
+        "image_path": "2019/Rhadinaea_flavilata/48800218.jpg",
+        "class_id": 1458,
+        "subset": "val"
+    },
+    {
+        "observation_id": 112271097,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Naja subfulva",
+        "code": "TZ",
+        "image_path": "2022/Naja_subfulva/189631638.jpeg",
+        "class_id": 1128,
+        "subset": "val"
+    },
+    {
+        "observation_id": 35255889,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Tantilla relicta",
+        "code": "US",
+        "image_path": "2002/Tantilla_relicta/55575294.jpg",
+        "class_id": 1594,
+        "subset": "val"
+    },
+    {
+        "observation_id": 126018159,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Lampropeltis nigra",
+        "code": "unknown",
+        "image_path": "2022/Lampropeltis_nigra/213773031.jpg",
+        "class_id": 875,
+        "subset": "val"
+    },
+    {
+        "observation_id": 13821090,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Deinagkistrodon acutus",
+        "code": "TW",
+        "image_path": "2018/Deinagkistrodon_acutus/20392185.jpg",
+        "class_id": 470,
+        "subset": "val"
+    },
+    {
+        "observation_id": 86030606,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Dendrelaphis underwoodi",
+        "code": "ID",
+        "image_path": "2021/Dendrelaphis_underwoodi/141654133.jpg",
+        "class_id": 507,
+        "subset": "val"
+    },
+    {
+        "observation_id": 48517030,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Echis leucogaster",
+        "code": "ML",
+        "image_path": "2019/Echis_leucogaster/76991532.jpg",
+        "class_id": 598,
+        "subset": "val"
+    },
+    {
+        "observation_id": 100473192,
+        "captive": false,
+        "endemic": false,
+        "binomial_name": "Indotyphlops braminus",
+        "code": "IN",
+        "image_path": "2021/Indotyphlops_braminus/167699505.jpeg",
+        "class_id": 849,
+        "subset": "val"
+    },
+    {
+        "observation_id": 19355210,
+        "captive": false,
+        "endemic": true,
+        "binomial_name": "Manolepis putnami",
+        "code": "MX",
+        "image_path": "2018/Manolepis_putnami/29763180.jpeg",
+        "class_id": 1009,
+        "subset": "val"
+    }
+]
