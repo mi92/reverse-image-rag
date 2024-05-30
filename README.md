@@ -1,5 +1,11 @@
 # Reverse Image RAG - (RIR) 
 
+> **[Paper code is on the `paper` branch]**
+>
+> The main branch of this repository hosts the code of the RIR package itself. 
+> For the source code of our paper, [Reverse Image Retrieval Cues Parametric Memory in Multimodal LLMs](https://arxiv.org/abs/2405.18740), please visit the `paper` branch of this repository: [https://github.com/mi92/reverse-image-rag/tree/paper](https://github.com/mi92/reverse-image-rag/tree/paper).
+
+
 ![](img/ex1a.png)
 
 ![](img/ex1b.png)
@@ -58,13 +64,4 @@ Feel free to ping me under mdmoor[at]cs.stanford.edu if you're interested in con
   howpublished = {\url{https://github.com/mi92/reverse-image-rag}},   
 }
 
-### More teaser examples:
-
-![](img/ex2a.png)
-
-![](img/ex2b.png)
-
-![](img/ex3a.png)
-
-![](img/ex3b.png)
 
