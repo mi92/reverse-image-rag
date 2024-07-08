@@ -88,8 +88,8 @@ def main(args):
     logs = []
     for idx, sample in tqdm(enumerate(samples[args.idx_offset:]), total=len(samples[args.idx_offset:])):
         idx = args.idx_offset + idx
-        image_url = f"https://anonymous.4open.science/api/repo/rir_data/file/snake/{sample['image_path']}"
-        screenshot_url = f"https://anonymous.4open.science/api/repo/rir_data/file/snake/{sample['image_path'].split('/')[-1]}-search_result.png"
+        image_url = f"https://raw.githubusercontent.com/liamjxu/rir_data/main/snake/{sample['image_path']}"
+        screenshot_url = f"https://raw.githubusercontent.com/liamjxu/rir_data/main/snake/{sample['image_path'].split('/')[-1]}-search_result.png"
         if args.metric == 'recall':
             query_text = "What is the binomial name of the snake in the image? Please respond with the binomial name only."
         elif args.metric == 'em':

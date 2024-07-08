@@ -22,9 +22,9 @@ def main(args):
     logs = []
     for idx, sample in tqdm(enumerate(samples[args.idx_offset:]), total=len(samples[args.idx_offset:])):
         idx = args.idx_offset + idx
-        image = load_image(f"https://anonymous.4open.science/api/repo/rir_data/file/snake/{sample['image_path']}")
+        image = load_image(f"https://raw.githubusercontent.com/liamjxu/rir_data/main/snake/{sample['image_path']}")
         width, height = image.size
-        image_url = f"https://anonymous.4open.science/api/repo/rir_data/file/snake/{sample['image_path']}"
+        image_url = f"https://raw.githubusercontent.com/liamjxu/rir_data/main/snake/{sample['image_path']}"
         query_text = "What is the binomial name of the snake in the image (e.g. Psammophis namibensis, Lampropeltis annulata)? Please respond with the binomial name only."
         response = api.query_with_image(
             image_url,

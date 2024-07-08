@@ -62,7 +62,7 @@ class RIR_API:
                 screenshot_url = '/'.join([*path_segs[:-2], 'screenshot', path_segs[-1] + "-search_result.png"])
             else:
                 name = image_url.split('/')[-1]
-                screenshot_url = f'https://anonymous.4open.science/api/repo/rir_data/file/snake/{name}-search_result.png'
+                screenshot_url = f'https://raw.githubusercontent.com/liamjxu/rir_data/main/snake/{name}-search_result.png'
 
             # Construct the prompt for GPT-4V
             context_text = ("In the screenshot, the large image on the left is the query image for a reverse image search. "

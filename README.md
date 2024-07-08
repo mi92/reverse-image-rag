@@ -33,7 +33,7 @@ The dataset files are provided in `local_data/`. They are:
 - `infoseek_data.json`: 1650 data samples of 11 categories, with 150 samples in each category. This is the same sample used by [Li et al. \[2023\]](https://arxiv.org/abs/2311.07536).
 - `snakeclef_data.json`: 300 data samples randomly sampled from the validation set of [SnakeCLEF 2023](https://www.imageclef.org/SnakeCLEF2023).
 
-The images are uploaded to [an anonymous repo](https://anonymous.4open.science/r/rir_data/) and fetched for Idefics-2/sent to GPT via URLs, so no downloading/processing is needed.
+The images are uploaded to [a GitHub repo](https://github.com/liamjxu/rir_data/) and fetched for Idefics-2/sent to GPT via URLs, so no downloading/processing is needed.
 
 ### 3. Run Experiments
 
@@ -62,7 +62,7 @@ sh experimenet/snake/reproduce_table_2.sh
 
 We provide all experiment records under `records/`, including:
 - data samples used
-- full input sent to model
+- full input sent to the model
 - raw model predictions
 - GPT judgments
 - API logs.

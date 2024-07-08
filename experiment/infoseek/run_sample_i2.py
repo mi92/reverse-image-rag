@@ -10,17 +10,23 @@ from transformers.image_utils import load_image
 
 DEVICE = "cuda:0"
 
-def load_image_wrapper(image_url):
+def load_image_wrapper(image_url, data_source='url'):
     cnt = 0
-    while cnt < 3:
-        try:
-            print('attempting to load image...')
-            img = load_image(image_url)
-            return img
-        except:
-            cnt += 1
-            print(f'attempt ({cnt+1}/3) failed')
-    return None
+    if data_source == 'url':
+        while cnt < 3:
+            try:
+                print('attempting to load image...')
+                img = load_image(image_url)
+                return img
+            except Exception as e:
+                cnt += 1
+                print(f'attempt ({cnt+1}/3) failed with error: {e}')
+        raise Exception('Failed to load image')
+    elif data_source == 'local':
+        path = '/'.join(image_url.split('/')[-2:])
+        return Image.open(f'lcoal_data/{path}')
+    else:
+        raise ValueError(f"Invalid data_source: {data_source}")
 
 def query_with_image(
         model,
@@ -31,15 +37,16 @@ def query_with_image(
         use_screenshot=False,
         exp_dir='experiment/infoseek/',
         sys_msg_filename=None,
+        data_source='url'
     ):
     with open(exp_dir + sys_msg_filename, 'r') as f:
         query_system_msg = f.read()
 
-    query_image = load_image_wrapper(image_url)
+    query_image = load_image_wrapper(image_url, data_source=data_source)
     if use_screenshot: 
         context_text = ("In the screenshot, the large image on the left is the query image for a reverse image search. "
                         "The smaller images on the right and their titles are the top hits from the search. ")
-        screenshot_image = load_image_wrapper(screenshot_url)
+        screenshot_image = load_image_wrapper(screenshot_url, data_source=data_source)
         messages = [
             {
                 "role": "user",
@@ -121,8 +128,8 @@ def main(args):
     logs = []
     for idx, sample in tqdm(enumerate(samples[args.idx_offset:]), total=len(samples[args.idx_offset:])):
         idx = args.idx_offset + idx
-        image_url = f"https://anonymous.4open.science/api/repo/rir_data/file/infoseek/{sample['image_id']}"
-        screenshot_url = f"https://anonymous.4open.science/api/repo/rir_data/file/screenshot/{sample['image_id']}-search_result.png"
+        image_url = f"https://raw.githubusercontent.com/liamjxu/rir_data/main/infoseek/{sample['image_id']}"
+        screenshot_url = f"https://raw.githubusercontent.com/liamjxu/rir_data/main/screenshot/{sample['image_id']}-search_result.png"
         query_text = sample['question']
         response, messages_record = query_with_image(
             model,
@@ -133,6 +140,7 @@ def main(args):
             use_screenshot=args.use_screenshot,
             exp_dir='experiment/infoseek/',
             sys_msg_filename=args.sys_msg_filename,
+            data_source=args.data_source
         )
 
         pred = response[0].split('Assistant: ')[-1]
@@ -172,6 +180,7 @@ if __name__ == '__main__':
     argparser.add_argument('--use_screenshot', type=int, required=True)
     # addtional
     argparser.add_argument('--idx_offset', type=int, required=True)
+    argparser.add_argument('--data_source', type=str, default='url', options=['url', 'local'])
 
     args = argparser.parse_args()
     main(args)
